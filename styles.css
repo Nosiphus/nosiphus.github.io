@@ -8,6 +8,10 @@ li {
   display: inline;
 }
 
+*{
+  font-family: Quicksand;
+}
+
 .active {
   background-color: #4CAF50;
   color: white;

@@ -1,3 +1,3 @@
-<img src="https://drive.google.com/uc?authuser=0&id=0B9VVtb7M5FRbQUU0UWctaTVUc1E&export=download">
+<img src="images/nosiphus.png" alt="Nosiphus logo" style="width:750px;height:250px;">
 
 Welcome to Nosiphus!

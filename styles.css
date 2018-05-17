@@ -8,8 +8,20 @@ li {
   display: inline;
 }
 
+@font-face {
+	font-family: Quicksand;
+	src: url(fonts/Quicksand-Regular.ttf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Quicksand;
+	src: url(fonts/Quicksand-Bold.ttf);
+	font-weight: bold;
+}
+
+
 *{
-  font-family: fonts/Quicksand-Regular;
+  font-family: "Quicksand";
 }
 
 .active {

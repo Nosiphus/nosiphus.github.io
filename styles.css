@@ -14,26 +14,27 @@ li a{
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 016px;
 	text-decoration: none;
 }
 
-li a:hover{
+li a:hover, .dropdown:hover .dropbtn{
 	background-color: #003965;
 }
 
-ul {
-	position: fixed;
-	top: 0;
-	width: 100%;
+li a, .dropbtn{
+	display:inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 ul.active{
 	background-color: #002BFF;
 }
 
-<style>
-.dropdown {
+li.dropdown {
 	position: relative;
 	display: inline-block;
 }
@@ -46,17 +47,25 @@ ul.active{
 	padding: 12px 16px;
 	z-index: 1;
 }
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-</style>
 
-@font-face {
+.dropdown-content a:hover {background-color: blue}
+
+font-face {
 	font-family: Quicksand;
 	src: url(fonts/Quicksand-Regular.ttf);
 	font-weight: normal;
 }
-@font-face {
+font-face {
 	font-family: Quicksand;
 	src: url(fonts/Quicksand-Bold.ttf);
 	font-weight: bold;
@@ -70,4 +79,11 @@ ul.active{
   background-color: #4CAF50;
   color: white;
 }
+
+p {
+	color: black;
+	text-align: center;
+}
   
+.Saturn {
+}

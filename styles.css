@@ -55,8 +55,8 @@ ul.active{
 
 font-face {
 	font-family: Quicksand;
-	src: url(/fonts/Quicksand/Quicksand-Regular.ttf);
-	src: url(/fonts/Quicksand/Quicksand-Regular.woff) format('woff');
+	src: url(/fonts/Quicksand/Quicksand-Regular.ttf) format('truetype'),
+	     url(/fonts/Quicksand/Quicksand-Regular.woff) format('woff');
 	font-weight: normal;
 }
 font-face {

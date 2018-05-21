@@ -55,12 +55,13 @@ ul.active{
 
 font-face {
 	font-family: Quicksand;
-	src: url(/fonts/Quicksand-Regular.ttf);
+	src: url(/fonts/Quicksand/Quicksand-Regular.ttf);
+	src: url(/fonts/Quicksand/Quicksand-Regular.woff) format('woff');
 	font-weight: normal;
 }
 font-face {
 	font-family: Quicksand;
-	src: url(/fonts/Quicksand-Bold.ttf);
+	src: url(/fonts/Quicksand/Quicksand-Bold.ttf);
 	font-weight: bold;
 }
 

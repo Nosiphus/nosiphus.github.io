@@ -64,6 +64,10 @@ font-face {
 	font-weight: bold;
 }
 
+body {
+background-color: #003965;
+}
+
 *{
   font-family: "Quicksand";
 }
@@ -74,7 +78,7 @@ font-face {
 }
 
 p {
-	color: #003965;
+	color: #7dc7ea;
 	text-align: center;
 	font-size: 20px;
 }

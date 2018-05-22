@@ -5,17 +5,18 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-align: center;
   background-color: #005596;
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a, .dropbtn {
-	display: inline-block;
+	display: block;
 	color: #7dc7ea;
-	text-align: center;
+	align-content: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }

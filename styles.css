@@ -25,6 +25,13 @@ background-color: #003965;
   color: white;
 }
 
+h1 {
+	color: #7dc7ea;
+	text-align: center;
+	font-size: 36px;
+	line-height:44px;
+}
+
 p {
 	color: #7dc7ea;
 	text-align: center;

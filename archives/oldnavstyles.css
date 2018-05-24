@@ -5,12 +5,12 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #005596;
+  background-color: #ffffff;
 }
 
 li a {
 	display: block;
-	color: #7dc7ea;
+	color: #4500FF;
 	padding: 14px 16px;
 	text-decoration: none;
 }

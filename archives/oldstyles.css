@@ -47,13 +47,10 @@ a {
 }
 
 .left {
-	width: 20%;
-}
-.middle{
-	width: 10%;
+	width: 25%;
 }
 .right {
-	width: 70%;
+	width: 75%;
 }
 
 /* Clear floats after the columns */

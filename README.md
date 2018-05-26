@@ -1,1 +1,1 @@
-This is a test site, which may or may not replace the main site eventually.
+The official Nosiphus website.

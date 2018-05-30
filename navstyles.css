@@ -55,3 +55,8 @@ li.dropdown {
 ul.active{
 	background-color: #002BFF;
 }
+
+#search {
+	width: 33%;
+	margin: 0 auto;
+}

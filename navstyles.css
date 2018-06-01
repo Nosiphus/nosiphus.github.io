@@ -1,6 +1,6 @@
 @import url("/styles.css");
 
-.mainlogo {
+#mainlogo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

@@ -89,6 +89,12 @@ p {
 	font-size: 20px;
 	line-height:28px;
 }
+details {
+	color: #7dc7ea;
+	text-align: center;
+	font-size: 20px;
+	line-height:28px;
+}
 a {
 	color: #2aabdf;
 	text-decoration: none;

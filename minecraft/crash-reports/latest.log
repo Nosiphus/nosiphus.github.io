@@ -1,0 +1,1273 @@
+[20:41:44] [main/INFO] [LaunchWrapper]: Mods hash changed, creating new cache: 3385617326 != 147309868
+[20:41:44] [main/INFO] [LaunchWrapper]: Initialized cache system in 149512412 ns
+[20:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:41:44] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2739 for Minecraft 1.12.2 loading
+[20:41:44] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Program Files (x86)\Minecraft\runtime\jre-x64\1.8.0_51
+[20:41:44] [main/INFO] [FML]: Searching C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\mods for mods
+[20:41:44] [main/INFO] [FML]: Searching C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\mods\1.12.2 for mods
+[20:41:44] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[20:41:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-0.3.2.18.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:41:44] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:41:44] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[20:41:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.9.9.1-1.12.2-anarchy.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:41:44] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:41:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from JustEnoughIDs-1.0.1-16.jar
+[20:41:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SmoothFont-1.12.2-1.15.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:41:44] [main/WARN] [FML]: The coremod bre.smoothfont.asm.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:41:44] [main/WARN] [FML]: The coremod CorePlugin (bre.smoothfont.asm.CorePlugin) is not signed!
+[20:41:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.9-97.jar
+[20:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[20:41:44] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.8 Source=file:/C:/Users/Sean/AppData/Roaming/.minecraft/environments/1.12.2/mods/JustEnoughIDs-1.0.1-16.jar Service=LaunchWrapper Env=CLIENT
+[20:41:44] [main/WARN] [FML]: The coremod JEIDLoadingPlugin (org.dimdev.jeid.JEIDLoadingPlugin) is not signed!
+[20:41:44] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[20:41:44] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[20:41:44] [main/INFO] [org.dimdev.vanillafix.VanillaFixLoadingPlugin]: Initializing StacktraceDeobfuscator
+[20:41:44] [main/INFO] [org.dimdev.vanillafix.VanillaFixLoadingPlugin]: Found MCP method mappings: methods-20180618-1.12.csv
+[20:41:44] [main/INFO] [org.dimdev.vanillafix.VanillaFixLoadingPlugin]: Done initializing StacktraceDeobfuscator
+[20:41:44] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:41:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:41:46] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[20:41:46] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[20:41:46] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@17d2ed1b
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:41:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:41:46] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:41:46] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:41:46] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.block.Block Finished.
+[20:41:46] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:41:46] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:41:46] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[20:41:47] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.renderer.texture.TextureManager
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Internal name = cdr
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.renderer.texture.TextureManager
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in loadTexture() method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in loadTexture() method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: LOAD_TEXTURE:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: ** TextureManager was transformed successfully.
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:41:47] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.FontRenderer
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Internal name = bip
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.gui.FontRenderer
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in constructor.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in constructor.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderChar() method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderDefaultChar method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderUnicodeChar() method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderStringAtPos method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Replaced unicodeFlag(x2) in renderStringAtPos().
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted boldFlag related code in renderStringAtPos().
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderStringAtPos method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in doDraw method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Modified doDraw method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderString method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderString method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderString method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in getStringWidth method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in getCharWidth method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in trimStringToWidth method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in setUnicodeFlag method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in sizeStringToWidth method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: INIT:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: READ_FONT_TEXTURE:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: READ_GLYPH_SIZES:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_CHAR:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_DEFAULT_CHAR:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_UNICODE_CHAR:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_STRING_AT_POS:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: DO_DRAW:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_STRING:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: GET_STRING_WIDTH:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: GET_CHAR_WIDTH:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: TRIM_STRING_TO_WIDTH:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: SET_UNICODE_FLAG:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: SIZE_STRING_TO_WIDTH:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: ** FontRenderer was transformed successfully.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.ScaledResolution
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Internal name = bit
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.gui.ScaledResolution
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Inserted the hook in ScaledResolution.<init>.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: INIT:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: ** ScaledResolution was transformed successfully.
+[20:41:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:41:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:113]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:41:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:150]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:41:47] [main/INFO] [LaunchWrapper]: Notifying Mixin of environment change null -> MixinEnvironment[DEFAULT]
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraftforge.client.GuiIngameForge
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Internal name = net.minecraftforge.client.GuiIngameForge
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraftforge.client.GuiIngameForge
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: Modified renderExperience method.
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: RENDER_EXPERIENCE:true
+[20:41:47] [main/INFO] [SmoothFontCore ASM]: ** GuiIngameForge was transformed successfully.
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: net/minecraft/client/resources/IResourceManagerReloadListener
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[20:41:48] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: windowsxprules1
+[20:41:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:41:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.block.Block Finished.
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[20:41:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[20:41:49] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:41:49] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:41:50] [main/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.jeid.core.json:MixinAnvilChunkLoader::handler$readPaletteNBT$zze000 exceeds the maximum allowed value 0. Increase the value of maxShiftBy to suppress this warning.
+[20:41:50] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[20:41:50] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[20:41:52] [main/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.vanillafix.crashes.json:MixinCrashReportCategory::handler$afterGetStacktrace$zbf000 exceeds the maximum allowed value 0. Increase the value of maxShiftBy to suppress this warning.
+[20:41:52] [main/INFO] [FML]: -- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 313651240 bytes (299 MB) / 536870912 bytes (512 MB) up to 12884901888 bytes (12288 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx12G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: 
+  Loaded coremods (and transformers): CTMCorePlugin (CTM-MC1.12.2-0.3.2.18.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.9-97.jar)
+                                        
+                                      Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.9.9.1-1.12.2-anarchy.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      CorePlugin (SmoothFont-1.12.2-1.15.jar)
+                                        bre.smoothfont.asm.Transformer
+                                      JEIDLoadingPlugin (JustEnoughIDs-1.0.1-16.jar)
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 398.36' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+  Suspected Mods: Unknown
+
+[20:41:52] [main/INFO] [FML]: MinecraftForge v14.23.4.2739 Initialized
+[20:41:52] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:41:52] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.FontRenderer
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Internal name = bip
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.gui.FontRenderer
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in constructor.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in constructor.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readFontTexture method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in readGlyphSizes method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderChar() method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderDefaultChar method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderUnicodeChar() method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderStringAtPos method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Replaced unicodeFlag(x2) in renderStringAtPos().
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted boldFlag related code in renderStringAtPos().
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderStringAtPos method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in doDraw method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Modified doDraw method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in renderString method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderString method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in renderString method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in getStringWidth method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in getCharWidth method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in trimStringToWidth method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in setUnicodeFlag method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: Inserted the EnterHook in sizeStringToWidth method.
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: INIT:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: READ_FONT_TEXTURE:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: READ_GLYPH_SIZES:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: RENDER_CHAR:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: RENDER_DEFAULT_CHAR:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: RENDER_UNICODE_CHAR:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: RENDER_STRING_AT_POS:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: DO_DRAW:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: RENDER_STRING:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: GET_STRING_WIDTH:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: GET_CHAR_WIDTH:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: TRIM_STRING_TO_WIDTH:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: SET_UNICODE_FLAG:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: SIZE_STRING_TO_WIDTH:true
+[20:41:52] [Thread-4/INFO] [SmoothFontCore ASM]: ** FontRenderer was transformed successfully.
+[20:41:52] [main/INFO] [FML]: Searching C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\mods for mods
+[20:41:52] [main/INFO] [FML]: Searching C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\mods\1.12.2 for mods
+[20:41:53] [main/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.1.348
+[20:41:53] [main/WARN] [FML]: Mod enderstorage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.5.134
+[20:41:54] [main/WARN] [FML]: Mod microblockcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.66
+[20:41:54] [main/WARN] [FML]: Mod forgemultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.66
+[20:41:54] [main/WARN] [FML]: Mod minecraftmultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.66
+[20:41:54] [main/WARN] [FML]: Mod jeid is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.1-16
+[20:41:54] [main/WARN] [FML]: Mod mrtjpcore is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.4.38
+[20:41:54] [main/WARN] [FML]: Mod projectred-core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/INFO] [FML]: Mod projectred-compat is missing the required element 'name'. Substituting projectred-compat
+[20:41:54] [main/WARN] [FML]: Mod projectred-compat is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[20:41:54] [main/WARN] [FML]: Mod projectred-fabrication is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-integration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-transmission is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-illumination is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-expansion is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-relocation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-transportation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod projectred-exploration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.2.101
+[20:41:54] [main/WARN] [FML]: Mod smoothfont is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.15
+[20:41:54] [main/WARN] [FML]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.9-97
+[20:41:54] [main/INFO] [FML]: Forge Mod Loader has identified 43 mods to load
+[20:41:54] [main/WARN] [mixin]: Error loading class: biomesoplenty/common/init/ModBiomes (java.lang.ClassNotFoundException: The specified class 'biomesoplenty.common.init.ModBiomes' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: biomesoplenty/common/command/BOPCommand (java.lang.ClassNotFoundException: The specified class 'biomesoplenty.common.command.BOPCommand' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: twilightforest/block/BlockTFMagicLogSpecial (java.lang.ClassNotFoundException: The specified class 'twilightforest.block.BlockTFMagicLogSpecial' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: thaumcraft/common/lib/utils/Utils (java.lang.ClassNotFoundException: The specified class 'thaumcraft.common.lib.utils.Utils' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: com/shinoow/abyssalcraft/common/network/client/CleansingRitualMessage (java.lang.ClassNotFoundException: The specified class 'com.shinoow.abyssalcraft.common.network.client.CleansingRitualMessage' was not found)
+[20:41:54] [main/WARN] [mixin]: @Mixin target com.shinoow.abyssalcraft.common.network.client.CleansingRitualMessage was not found mixins.jeid.modsupport.json:MixinCleansingRitualMessage
+[20:41:54] [main/WARN] [mixin]: Error loading class: com/cutievirus/creepingnether/entity/EntityPortal (java.lang.ClassNotFoundException: The specified class 'com.cutievirus.creepingnether.entity.EntityPortal' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: climateControl/DimensionManager (java.lang.ClassNotFoundException: The specified class 'climateControl.DimensionManager' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: com/xcompwiz/mystcraft/symbol/symbols/SymbolFloatingIslands$BiomeReplacer (java.lang.ClassNotFoundException: The specified class 'com.xcompwiz.mystcraft.symbol.symbols.SymbolFloatingIslands$BiomeReplacer' was not found)
+[20:41:54] [main/WARN] [mixin]: @Mixin target com.xcompwiz.mystcraft.symbol.symbols.SymbolFloatingIslands$BiomeReplacer was not found mixins.jeid.modsupport.json:MixinBiomeReplacer
+[20:41:54] [main/WARN] [mixin]: Error loading class: zmaster587/advancedRocketry/util/BiomeHandler (java.lang.ClassNotFoundException: The specified class 'zmaster587.advancedRocketry.util.BiomeHandler' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: com/sk89q/worldedit/blocks/BaseBlock (java.lang.ClassNotFoundException: The specified class 'com.sk89q.worldedit.blocks.BaseBlock' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: journeymap/client/model/ChunkMD (java.lang.ClassNotFoundException: The specified class 'journeymap.client.model.ChunkMD' was not found)
+[20:41:54] [main/WARN] [mixin]: @Mixin target journeymap.client.model.ChunkMD was not found mixins.jeid.modsupport.json:MixinChunkMD
+[20:41:54] [main/WARN] [mixin]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
+[20:41:54] [main/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
+[20:41:54] [Thread-4/INFO] [FML]: Using sync timing. 200 frames of Display.update took 129412328 nanos
+[20:41:55] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, foamfixcore, aiimprovements, appliedenergistics2, bibliocraft, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, buildcraftcompat, codechickenlib, computercraft, ctm, enderstorage, foamfix, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, jei, jeid, moreplayermodels, mrtjpcore, nei, projectred-core, projectred-compat, projectred-fabrication, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, smoothfont, vanillafix] at CLIENT
+[20:41:55] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, foamfixcore, aiimprovements, appliedenergistics2, bibliocraft, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, buildcraftcompat, codechickenlib, computercraft, ctm, enderstorage, foamfix, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, jei, jeid, moreplayermodels, mrtjpcore, nei, projectred-core, projectred-compat, projectred-fabrication, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, smoothfont, vanillafix] at SERVER
+[20:41:56] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:41:56] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:41:56] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[20:41:56] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[20:41:56] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AI Improvements, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BiblioCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ComputerCraft, FMLFileResourcePack:CTM, FMLFileResourcePack:EnderStorage, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart CBE, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JustEnoughIDs, FMLFileResourcePack:MorePlayerModels, FMLFileResourcePack:MrTJPCore, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:ProjectRed Core, FMLFileResourcePack:projectred-compat, FMLFileResourcePack:ProjectRed Fabrication, FMLFileResourcePack:ProjectRed Integration, FMLFileResourcePack:ProjectRed Transmission, FMLFileResourcePack:ProjectRed Illumination, FMLFileResourcePack:ProjectRed Expansion, FMLFileResourcePack:ProjectRed Relocation, FMLFileResourcePack:ProjectRed Transportation, FMLFileResourcePack:ProjectRed Exploration, FMLFileResourcePack:Smooth Font, FMLFileResourcePack:VanillaFix, PureBDcraft 128x MC112.zip, Sphax_Telkit_128x.zip, Sphax_CTM_128x.zip
+[20:41:56] [main/INFO] [FML]: Processing ObjectHolder annotations
+[20:41:56] [main/INFO] [FML]: Found 1225 ObjectHolder annotations
+[20:41:56] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:41:56] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:41:57] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:41:57] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+[20:41:57] [main/INFO] [smoothfont]: Search font files in "fontfiles" folder.
+[20:41:57] [main/INFO] [smoothfont]:   Found 0 font(s).
+[20:41:57] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
+[20:41:57] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:41:57] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[20:41:57] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[20:41:58] [main/INFO] [smoothfont]: Suitable font size is 63.499992 (Quicksand Medium)
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[20:41:58] [Forge Version Check/INFO] [forge.VersionCheck]: [enderstorage] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=EnderStorage
+[20:41:59] [Forge Version Check/INFO] [forge.VersionCheck]: [enderstorage] Found status: BETA Target: null
+[20:41:59] [Forge Version Check/INFO] [forge.VersionCheck]: [vanillafix] Starting version check at https://gist.githubusercontent.com/Runemoro/28e8cf4c24a5f17f508a5d34f66d229f/raw/vanillafix_update.json
+[20:41:59] [main/INFO] [smoothfont]: Suitable font size is 64.49999 (SansSerif.plain)
+[20:41:59] [main/INFO] [smoothfont]: Suitable font size is 64.49999 (SansSerif.plain)
+[20:41:59] [Forge Version Check/INFO] [forge.VersionCheck]: [vanillafix] Found status: AHEAD Target: null
+[20:41:59] [Forge Version Check/INFO] [forge.VersionCheck]: [jeid] Starting version check at https://gist.githubusercontent.com/Runemoro/67b1d8d31af58e9d35410ef60b2017c3/raw/1fe08a6c45a1f481a8a2a8c71e52d4245dcb7713/jeid_update.json
+[20:41:59] [Forge Version Check/INFO] [forge.VersionCheck]: [jeid] Found status: AHEAD Target: null
+[20:42:17] [main/INFO] [smoothfont]: All images generation time: 18068ms
+[20:42:17] [main/INFO] [smoothfont]: Total memory used for the current platform font images: 23MB
+[20:42:17] [main/INFO] [AE2:C]: Pre Initialization ( started )
+[20:42:17] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[20:42:18] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:91]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[20:42:18] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[20:42:18] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[20:42:18] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.bakeNormal
+[20:42:18] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[20:42:18] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[20:42:18] [main/INFO] [AE2:C]: Starting AE2 VersionChecker
+[20:42:18] [main/INFO] [AE2:C]: Pre Initialization ( ended after 1172ms )
+[20:42:18] [AE2 VersionChecker/INFO] [AE2:C]: Last check was just recently.
+[20:42:18] [AE2 VersionChecker/INFO] [AE2:C]: Stopping AE2 VersionChecker
+[20:42:18] [main/INFO] [BuildCraft]: 
+[20:42:18] [main/INFO] [BuildCraft]: Starting BuildCraft 7.99.17
+[20:42:18] [main/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[20:42:18] [main/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[20:42:18] [main/INFO] [BuildCraft]: Detailed Build Information:
+[20:42:18] [main/INFO] [BuildCraft]:   Branch 8.0.x
+[20:42:18] [main/INFO] [BuildCraft]:   Commit c6b869f6a345784a1b2c5afb79e0dd733798b150
+[20:42:18] [main/INFO] [BuildCraft]:     Bump version for 7.99.17 release
+[20:42:18] [main/INFO] [BuildCraft]:     committed by AlexIIL
+[20:42:18] [main/INFO] [BuildCraft]: 
+[20:42:18] [main/INFO] [BuildCraft]: Loaded Modules:
+[20:42:18] [main/INFO] [BuildCraft]:   - lib
+[20:42:18] [main/INFO] [BuildCraft]:   - core
+[20:42:18] [main/INFO] [BuildCraft]:   - builders
+[20:42:18] [main/INFO] [BuildCraft]:   - energy
+[20:42:18] [main/INFO] [BuildCraft]:   - factory
+[20:42:18] [main/INFO] [BuildCraft]:   - robotics
+[20:42:18] [main/INFO] [BuildCraft]:   - silicon
+[20:42:18] [main/INFO] [BuildCraft]:   - transport
+[20:42:18] [main/INFO] [BuildCraft]:   - compat
+[20:42:18] [main/INFO] [BuildCraft]: Missing Modules:
+[20:42:18] [main/INFO] [BuildCraft]: 
+[20:42:18] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:42:18] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:42:18] [main/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[20:42:18] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:42:19] [main/INFO] [BuildCraft]: 
+[20:42:19] [main/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.14
+[20:42:19] [main/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[20:42:19] [main/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[20:42:19] [main/INFO] [BuildCraft]: Detailed Build Information:
+[20:42:19] [main/INFO] [BuildCraft]:   Branch 8.0.x
+[20:42:19] [main/INFO] [BuildCraft]:   Commit 84f2673f4a4e98fee8371100b61ff990052e42d3
+[20:42:19] [main/INFO] [BuildCraft]:     Update buildcraft to 7.99.15, change version to 7.99.14.
+[20:42:19] [main/INFO] [BuildCraft]:     committed by AlexIIL
+[20:42:19] [main/INFO] [BuildCraft]: 
+[20:42:19] [main/INFO] [BuildCraft]: [compat] Module list:
+[20:42:19] [main/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[20:42:19] [main/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.renderer.texture.TextureManager
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: Internal name = cdr
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.renderer.texture.TextureManager
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in loadTexture() method.
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: Inserted the ExitHook in loadTexture() method.
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: LOAD_TEXTURE:true
+[20:42:19] [main/INFO] [SmoothFontCore ASM]: ** TextureManager was transformed successfully.
+[20:42:20] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender chest`, expected `enderstorage`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:20] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender tank`, expected `enderstorage`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:20] [main/INFO] [STDOUT]: [pl.asie.foamfix.ProxyCommon:preInit:83]: minecraft:hopper
+[20:42:20] [main/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: net.minecraftforge.fml.relauncher.ReflectionHelper$UnableToFindFieldException: java.lang.NoSuchFieldException: packageManifests
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:118)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at pl.asie.foamfix.ProxyCommon.preInit(ProxyCommon.java:90)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at pl.asie.foamfix.ProxyClient.preInit(ProxyClient.java:149)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at pl.asie.foamfix.FoamFix.preInit(FoamFix.java:130)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:627)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:246)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:466)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3927)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157)
+[20:42:20] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:preInit:153]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:23)
+[20:42:20] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: Caused by: java.lang.NoSuchFieldException: packageManifests
+[20:42:20] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at java.lang.Class.getDeclaredField(Class.java:2070)
+[20:42:20] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:109)
+[20:42:20] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	... 43 more
+[20:42:20] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.client.model.ItemLayerModel.bake
+[20:42:20] [main/WARN] [foamfix]: Fast animated textures currently only seem to boost performance on AMD cards. Using original slow path.
+[20:42:20] [main/WARN] [FML]: Potentially Dangerous alternative prefix `ccmp` for name `saved_multipart`, expected `forgemultipartcbe`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:21] [main/WARN] [ProjectRed]: Failed to load PR Plugin: Treecapitator: gem axe compat
+[20:42:21] [main/WARN] [ProjectRed]: Failed to load PR Plugin: Chisel: Exploration decorative blocks
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bookcase`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shelf`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `markerpole`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clipboard`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bibliolight`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `furniturepaneler`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potionshelf`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `toolrack`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `label`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `desk`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `table`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `seat`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fancysign`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fancyworkbench`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `framedchest`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mapframe`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `case`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clock`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframeborderless`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframefancy`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframeflat`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframemiddle`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframesimple`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingpress`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `armorstand`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `typesettingtable`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `printingpress`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookiejar`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dinnerplate`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `discrack`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `swordpedestal`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bell`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `typewriter`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:22] [main/INFO] [FML]: Applying holder lookups
+[20:42:22] [main/INFO] [FML]: Holder lookups applied
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.ScaledResolution
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: Internal name = bit
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: Transformed name = net.minecraft.client.gui.ScaledResolution
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: Inserted the hook in ScaledResolution.<init>.
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: INIT:true
+[20:42:22] [main/INFO] [SmoothFontCore ASM]: ** ScaledResolution was transformed successfully.
+[20:42:22] [main/INFO] [FML]: Applying holder lookups
+[20:42:22] [main/INFO] [FML]: Holder lookups applied
+[20:42:22] [main/INFO] [FML]: Applying holder lookups
+[20:42:22] [main/INFO] [FML]: Holder lookups applied
+[20:42:22] [main/INFO] [FML]: OBJLoader: Domain bibliocraft has been added.
+[20:42:22] [main/INFO] [FML]: Applying holder lookups
+[20:42:22] [main/INFO] [FML]: Holder lookups applied
+[20:42:22] [main/INFO] [FML]: Injecting itemstacks
+[20:42:22] [main/INFO] [FML]: Itemstack injection complete
+[20:42:23] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[20:42:23] [Thread-266/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[20:42:23] [Thread-266/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:42:23] [Thread-266/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[20:42:23] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[20:42:29] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:229]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:42:29] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:241]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[20:42:29] [main/INFO] [FML]: Max texture size: 16384
+[20:42:33] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 8192x8192 textures-atlas
+[20:42:34] [main/ERROR] [FML]: MultiModel minecraft:builtin/missing is empty (no base model or parts were provided/resolved)
+[20:42:34] [main/INFO] [foamfix]: Clearing ModelLoaderRegistry cache (10634 items)...
+[20:42:34] [main/INFO] [foamfix]: Cleared 10629 objects.
+[20:42:34] [main/INFO] [foamfix]: Deduplicating models...
+[20:42:34] [main/INFO] [foamfix]: Deduplicating models...
+[20:42:35] [main/INFO] [foamfix]: Deduplicated 97606 (+ 163385) objects.
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-relocation:blockmovingrow#tile_idx=15
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-relocation:blockmovingrow#tile_idx=15 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[20:42:37] [main/ERROR] [FML]: Exception loading blockstate for the variant projectred-relocation:blockmovingrow#tile_idx=15: 
+java.lang.Exception: Could not load model definition for variant projectred-relocation:blockmovingrow
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model projectred-relocation:blockstates/blockmovingrow.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: projectred-relocation:blockstates/blockmovingrow.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-relocation:blockmovingrow#tile_idx=14
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-relocation:blockmovingrow#tile_idx=14 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-relocation:blockmovingrow#tile_idx=13
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-relocation:blockmovingrow#tile_idx=13 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-relocation:blockmovingrow#tile_idx=12
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-relocation:blockmovingrow#tile_idx=12 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-fabrication:ic_machine#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-fabrication:item/ic_machine with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.io.FileNotFoundException: projectred-fabrication:models/item/ic_machine.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:860) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-fabrication:ic_machine#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-fabrication:ic_machine#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading blockstate for the variant projectred-fabrication:ic_machine#inventory: 
+java.lang.Exception: Could not load model definition for variant projectred-fabrication:ic_machine
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model projectred-fabrication:blockstates/ic_machine.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: projectred-fabrication:blockstates/ic_machine.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-expansion:machine1#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-expansion:item/machine1 with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.io.FileNotFoundException: projectred-expansion:models/item/machine1.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:860) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-expansion:machine1#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-expansion:machine1#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading blockstate for the variant projectred-expansion:machine1#inventory: 
+java.lang.Exception: Could not load model definition for variant projectred-expansion:machine1
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model projectred-expansion:blockstates/machine1.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: projectred-expansion:blockstates/machine1.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-expansion:machine2#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-expansion:item/machine2 with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.io.FileNotFoundException: projectred-expansion:models/item/machine2.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:860) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant projectred-expansion:machine2#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model projectred-expansion:machine2#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading blockstate for the variant projectred-expansion:machine2#inventory: 
+java.lang.Exception: Could not load model definition for variant projectred-expansion:machine2
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model projectred-expansion:blockstates/machine2.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: projectred-expansion:blockstates/machine2.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[20:42:37] [main/ERROR] [FML]: Exception loading model for variant forgemultipartcbe:multipart_block#normal
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model forgemultipartcbe:multipart_block#normal with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1174) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[20:42:37] [main/ERROR] [FML]: Exception loading blockstate for the variant forgemultipartcbe:multipart_block#normal: 
+java.lang.Exception: Could not load model definition for variant forgemultipartcbe:multipart_block
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model forgemultipartcbe:blockstates/multipart_block.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: forgemultipartcbe:blockstates/multipart_block.json
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:83) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[20:42:37] [main/FATAL] [FML]: Suppressed additional 12 model loading errors for domain projectred-relocation
+[20:42:38] [main/INFO] [foamfix]: JEI search tree manager injection complete!
+[20:42:38] [main/ERROR] [FML]: Parsing error loading recipe bibliocraft:markerpole
+com.google.gson.JsonSyntaxException: Invalid pattern: empty pattern not allowed
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$862/1414093165.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:409) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:711) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$873/23949682.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:822) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:668) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$871/833581517.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:620) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:330) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:534) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+[20:42:38] [main/ERROR] [FML]: Parsing error loading recipe bibliocraft:clipboard
+com.google.gson.JsonSyntaxException: Invalid pattern: empty pattern not allowed
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$862/1414093165.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:409) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:711) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$873/23949682.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:822) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:668) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$871/833581517.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:620) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:330) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:534) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3927) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157) [launchwrapper-2.0.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:23) [launchwrapper-2.0.jar:?]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:1 in processing/factorization.recipe with: [ae2:material.fluix_crystal, ->, ae2:material.fluix_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:2 in processing/factorization.recipe with: [ae2:sky_stone_block:0, ->, ae2:material.sky_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:4 in processing/factorization.recipe with: [mc:ender_pearl, ->, ae2:material.ender_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:5 in processing/factorization.recipe with: [ae2:material.certus_quartz_crystal_charged, ->, ae2:material.certus_quartz_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:7 in processing/factorization.recipe with: [ae2:material.certus_quartz_crystal, ->, ae2:material.certus_quartz_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:8 in processing/factorization.recipe with: [ae2:quartz_ore, ->, 2, ae2:material.certus_quartz_dust]
+[20:42:39] [main/WARN] [AE2:C]: Recipe Error 'Invalid crafting type: grindfz' near line:9 in processing/factorization.recipe with: [ae2:charged_quartz_ore, ->, 2, ae2:material.certus_quartz_dust]
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Pulverizer: 9 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Crusher: 9 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: OreRegistration: 16 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Grind: 4 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Smelt: 6 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Inscribe: 8 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Macerator: 8 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: MekEnrichment: 2 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: Press: 3 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: HCCrusher: 9 loaded.
+[20:42:39] [main/INFO] [AE2:C]: Recipes Loading: MekCrusher: 3 loaded.
+[20:42:39] [main/INFO] [FML]: Applying holder lookups
+[20:42:39] [main/INFO] [FML]: Holder lookups applied
+[20:42:39] [main/INFO] [AE2:C]: Initialization ( started )
+[20:42:39] [main/INFO] [AE2:C]: Starting AE2 CSV Export
+[20:42:39] [AE2 CSV Export/INFO] [AE2:C]: Cache is enabled. Checking for new mod configurations.
+[20:42:39] [AE2 CSV Export/INFO] [AE2:C]: New mod configuration was found. Commencing exporting.
+[20:42:39] [AE2 CSV Export/INFO] [AE2:C]: Item Exporting ( started )
+[20:42:39] [AE2 CSV Export/INFO] [AE2:C]: Exported successfully 777 items into items.csv
+[20:42:39] [AE2 CSV Export/INFO] [AE2:C]: Item Exporting ( ended after 66 ms)
+[20:42:39] [main/INFO] [AE2:C]: Initialization ( ended after 121ms )
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` computer`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` diskdrive`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` wirelessmodem`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` monitor`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` ccprinter`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` wiredmodem`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` command_computer`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` advanced_modem`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` speaker`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` turtle`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` turtleex`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:39] [main/WARN] [FML]: Potentially Dangerous alternative prefix `computercraft ` for name ` turtleadv`, expected `computercraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:42:40] [main/INFO] [foamfix]: Deduplicated 159 property sets.
+[20:42:40] [main/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: net.minecraftforge.fml.relauncher.ReflectionHelper$UnableToFindFieldException: java.lang.NoSuchFieldException: resourceCache
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:118)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at pl.asie.foamfix.ProxyCommon.init(ProxyCommon.java:164)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at pl.asie.foamfix.ProxyClient.init(ProxyClient.java:197)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at pl.asie.foamfix.FoamFix.init(FoamFix.java:152)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:627)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:744)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:330)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3927)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:157)
+[20:42:40] [main/INFO] [STDERR]: [pl.asie.foamfix.ProxyCommon:init:170]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:23)
+[20:42:40] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: Caused by: java.lang.NoSuchFieldException: resourceCache
+[20:42:40] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at java.lang.Class.getDeclaredField(Class.java:2070)
+[20:42:40] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:109)
+[20:42:40] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	... 43 more
+[20:42:40] [main/INFO] [foamfix]: Registered client-side world unload notifier!
+[20:42:40] [main/INFO] [foamfix]: Cleaning up ModelLoader...
+[20:42:40] [main/WARN] [FML]: Unable to inject capability mrtjp.projectred.api.IFrame at mrtjp.projectred.relocation.RelocationProxy_server.FRAME_CAPABILITY (Non-Static)
+[20:42:40] [main/INFO] [FML]: Injecting itemstacks
+[20:42:40] [main/INFO] [FML]: Itemstack injection complete
+[20:42:40] [main/WARN] [FML]: No types have been added to Biome jeid:error_biome, types have been assigned on a best-effort guess: [PLAINS]
+[20:42:40] [main/WARN] [FML]: No types have been added to Biome appliedenergistics2:storage_biome, types have been assigned on a best-effort guess: [PLAINS, COLD]
+[20:42:40] [main/INFO] [AE2:C]: Post Initialization ( started )
+[20:42:40] [main/INFO] [AE2:C]: Industrial Craft 2 - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Railcraft - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Mine Factory Reloaded - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Waila - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Inventory Tweaks - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Just Enough Items - Integration Enable
+[20:42:40] [main/INFO] [AE2:C]: Mekanism - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: OpenComputers - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: TheOneProbe - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Tesla - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: CraftTweaker - Integration Disabled
+[20:42:40] [main/INFO] [AE2:C]: Post Initialization ( ended after 146ms )
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_gate)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_pulsar)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_light_sensor)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_lens)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader.markdown] buildcrafttransport:plug_lens was not a valid item!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '{buildcrafttransport:plug_lens,1,16}'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader.markdown] buildcrafttransport:plug_facade was not a valid item!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '{buildcrafttransport:plug_facade,1,0,{preview:1b}}'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcraftsilicon:charging_table)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcraftsilicon:programming_table)'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/Stone_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/iron_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/clay_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/void_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/obsidian_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_wood_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/lapis_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/daizuli_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/emzuli_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/stripes_item.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/Stone_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/iron_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/clay_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/void_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_wood_fluid.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/stone_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_power.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/plug_blocker.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/pipe_wire.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.markdown] Found deprecated element '$[special.all_crafting](buildcraftlib:guide)', it should be replaced with '<recipes_usages stack="buildcraftlib:guide"/>'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.markdown] Found deprecated element '$[special.new_page]', it should be replaced with '<new_page/>'
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/laser.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/assembly.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/integration.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/advanced_crafting.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:compat/buildcraft/guide/en_us/item/paintbrush.md' because we couldn't find it in any resource pack!
+[20:42:40] [main/INFO] [BuildCraft]: [lib.guide] Loaded 65 possible and 25 actual guide pages (40 not found) in 168ms.
+[20:42:40] [main/WARN] [BuildCraft]: [lib.gui.cfg] Failed to read the config file! C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\config\buildcraft\gui.json
+[20:42:40] [main/INFO] [jei]: Starting JEI...
+[20:42:41] [main/INFO] [jei]: Registering recipe categories...
+[20:42:41] [main/INFO] [BuildCraft]: Loaded JEI mods: [factory, energy, silicon]
+[20:42:41] [main/INFO] [jei]: Registering recipe categories took 24.17 ms
+[20:42:41] [main/INFO] [jei]: Registering mod plugins...
+[20:42:41] [main/INFO] [jei]: Added recipe registry plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[20:42:41] [main/INFO] [jei]: Registering mod plugins took 177.2 ms
+[20:42:41] [main/INFO] [jei]: Building recipe registry...
+[20:42:41] [main/INFO] [jei]: Building recipe registry took 102.0 ms
+[20:42:41] [main/INFO] [jei]: Building ingredient list...
+[20:42:41] [main/INFO] [jei]: Building ingredient list took 65.80 ms
+[20:42:41] [main/INFO] [jei]: Building ingredient filter...
+[20:42:41] [main/INFO] [jei]: Building ingredient filter took 239.1 ms
+[20:42:41] [main/INFO] [jei]: Building runtime...
+[20:42:41] [main/INFO] [jei]: Building runtime took 118.9 ms
+[20:42:41] [main/INFO] [jei]: Starting JEI took 907.8 ms
+[20:42:41] [main/INFO] [NotEnoughItems]: Loading NEI.
+[20:42:42] [main/INFO] [NotEnoughItems]: Finished NEI Initialization after 149 ms
+[20:42:42] [main/INFO] [foamfix]: JEI search tree manager injection complete!
+[20:42:42] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 43 mods
+[20:42:42] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[20:42:42] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN minecraft
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain minecraft is missing 1 texture
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain minecraft has 12 locations:
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Builders
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BuildCraft
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Energy
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Factory
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BuildCraft Lib
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Robotics
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Silicon
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:BC Transport
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       resource pack at path C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\resourcepacks\PureBDcraft 128x MC112.zip
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       resource pack at path C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\resourcepacks\Sphax_Telkit_128x.zip
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       resource pack at path C:\Users\Sean\AppData\Roaming\.minecraft\environments\1.12.2\resourcepacks\Sphax_CTM_128x.zip
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain minecraft are:
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/hardened_clay_stained_red-ctm.png
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain minecraft
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[20:42:42] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[20:42:43] [main/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.vanillafix.textures.json:client.MixinRenderChunk::handler$onRebuildChunk$zcc000 exceeds the maximum allowed value 0. Increase the value of maxShiftBy to suppress this warning.
+[20:42:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[20:42:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[20:42:49] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:gear_wood Expected: 4367 Got: 4370
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:spring Expected: 4361 Got: 4371
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:marker_path Expected: 4364 Got: 4372
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:marker_volume Expected: 4363 Got: 4373
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:gear_diamond Expected: 4371 Got: 4374
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:gear_stone Expected: 4368 Got: 4375
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftlib:guide_note Expected: 4359 Got: 4376
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:list Expected: 4373 Got: 4378
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftlib:debugger Expected: 4360 Got: 4380
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:marker_connector Expected: 4375 Got: 4382
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:map_location Expected: 4374 Got: 4383
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:engine Expected: 4365 Got: 4385
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:replacer Expected: 4385 Got: 4386
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:architect Expected: 4383 Got: 4387
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:wrench Expected: 4366 Got: 4391
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:volume_box Expected: 4376 Got: 4393
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftlib:guide Expected: 4358 Got: 4395
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:filler_planner Expected: 4380 Got: 4402
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:builder Expected: 4382 Got: 4403
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: forge:bucketfilled Expected: 4183 Got: 4407
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_cobble_item Expected: 4402 Got: 4410
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:paintbrush Expected: 4372 Got: 4413
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:decorated Expected: 4362 Got: 4417
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:gear_gold Expected: 4370 Got: 4419
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_obsidian_item Expected: 4410 Got: 4424
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_clay_item Expected: 4407 Got: 4432
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:quarry Expected: 4387 Got: 4445
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_stone_item Expected: 4403 Got: 4446
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_lapis_item Expected: 4413 Got: 4449
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_wood_fluid Expected: 4417 Got: 4450
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_gold_power Expected: 4432 Got: 4451
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_stone_fluid Expected: 4419 Got: 4452
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftsilicon:plug_lens Expected: 4445 Got: 4453
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftfactory:pump Expected: 4391 Got: 4454
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcrafttransport:pipe_sandstone_fluid Expected: 4424 Got: 4455
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftfactory:distiller Expected: 4395 Got: 4456
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftfactory:tank Expected: 4393 Got: 4457
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftsilicon:plug_pulsar Expected: 4446 Got: 4458
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:snapshot Expected: 4378 Got: 4459
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftbuilders:frame Expected: 4386 Got: 4460
+[20:42:49] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: buildcraftcore:gear_iron Expected: 4369 Got: 4461
+[20:42:49] [Server thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[20:42:49] [Server thread/INFO] [FML]: Applying holder lookups
+[20:42:49] [Server thread/INFO] [FML]: Holder lookups applied
+[20:42:49] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@5fb34a5f)
+[20:42:50] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement buildcraftcore:goggles
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'buildcraftcore:goggles'
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:124) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:135) ~[rc.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[r.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[r.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(SourceFile:202) ~[i$a.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[ns$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[ns$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:492) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(SourceFile:532) ~[rc.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1356) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks$$Lambda$1111/1347819532.apply(Unknown Source) [ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:822) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1338) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1312) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [ns.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [oo.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[20:42:50] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 575 advancements
+[20:42:50] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@5fb34a5f)
+[20:42:50] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@5fb34a5f)
+[20:42:50] [Server thread/INFO] [FML]: Loading dimension 3 (New World) (net.minecraft.server.integrated.IntegratedServer@5fb34a5f)
+[20:42:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:42:50] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:42:51] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:42:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 16, from 10
+[20:42:51] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[20:42:52] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[20:42:52] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,buildcraftlib@7.99.17,buildcraftsilicon@7.99.17,buildcraftenergy@7.99.17,smoothfont@1.12.2-1.15,jei@4.11.0.206,buildcrafttransport@7.99.17,projectred-relocation@4.9.2.101,nei@2.4.1,bibliocraft@2.4.5,projectred-core@4.9.2.101,vanillafix@1.0.9-97,buildcraftbuilders@7.99.17,mcp@9.42,moreplayermodels@1.12.2,smoothfontcore@1.12.2-1.14,buildcraftfactory@7.99.17,ctm@MC1.12.2-0.3.2.18,appliedenergistics2@rv5-stable-11,projectred-fabrication@4.9.2.101,projectred-transmission@4.9.2.101,mrtjpcore@2.1.4.38,projectred-expansion@4.9.2.101,projectred-transportation@4.9.2.101,projectred-exploration@4.9.2.101,FML@8.0.99.99,microblockcbe@2.4.2.66,projectred-integration@4.9.2.101,jeid@1.0.1-16,foamfixcore@7.7.4,projectred-illumination@4.9.2.101,buildcraftcompat@7.99.14,aiimprovements@0.0.1.1,computercraft@1.80pr1,minecraftmultipartcbe@2.4.2.66,forgemultipartcbe@2.4.2.66,foamfix@0.9.9.1-1.12.2,enderstorage@2.4.5.134,projectred-compat@1.0,forge@14.23.4.2739,codechickenlib@3.2.1.348,buildcraftcore@7.99.17,buildcraftrobotics@7.99.17
+[20:42:52] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[20:42:52] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[20:42:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:42:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: windowsxprules1[local:E:82ca730d] logged in with entity id 69 at (-783.0575575672837, 4.0, 432.8556928358831)
+[20:42:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: windowsxprules1 joined the game
+[20:42:53] [Thread-265/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] §2MorePlayerModels§f installed. More info at §9§nClick here
+[20:42:53] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: java.io.IOException: Server returned HTTP response code: 403 for URL: http://www.bibliocraftmod.com/vcheck/version.txt
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at java.security.AccessController.doPrivileged(Native Method)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at java.security.AccessController.doPrivileged(AccessController.java:713)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at java.net.URL.openStream(URL.java:1038)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at jds.bibliocraft.VersionCheck.getNetVersion(VersionCheck.java:58)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at jds.bibliocraft.VersionCheck$1.run(VersionCheck.java:46)
+[20:42:53] [Thread-276/INFO] [STDERR]: [jds.bibliocraft.VersionCheck:getNetVersion:88]: 	at java.lang.Thread.run(Thread.java:745)
+[20:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/Storage Cell
+[20:42:53] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5 advancements
+[20:42:56] [Thread-274/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] WARNING: BuildCraft 7.99.17 is in ALPHA!
+[20:42:56] [Thread-274/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   Report BuildCraft bugs you find here
+[20:42:56] [Thread-274/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   and include the BuildCraft version 7.99.17 in the description
+[20:42:56] [Thread-274/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   If you have performance problems then try disabling
+[20:42:56] [Thread-274/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] everything in the BuildCraft perfomance config section.
+[20:42:58] [Screenshot Saving Thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Saved screenshot as 2018-07-26_20.42.58.png
+[20:42:59] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:42:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:43:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/Storage Cell
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:43:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: windowsxprules1 lost connection: Disconnected
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: windowsxprules1 left the game
+[20:43:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/Storage Cell
+[20:43:01] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:43:01] [Server thread/INFO] [FML]: Unloading dimension 3
+[20:43:02] [Server thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[20:43:02] [Server thread/INFO] [FML]: Applying holder lookups
+[20:43:02] [Server thread/INFO] [FML]: Holder lookups applied
+[20:43:04] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[20:43:04] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[20:43:04] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

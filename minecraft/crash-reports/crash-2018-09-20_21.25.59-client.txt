@@ -1,0 +1,252 @@
+---- Minecraft Crash Report ----
+// I blame SteveKunG, author of Galacticraft Core.
+
+Time: 2018-09-20 21:25:59 CDT
+Description: Ticking entity
+
+java.lang.ArrayIndexOutOfBoundsException: 16
+    at micdoodle8.mods.galacticraft.api.prefab.entity.EntityAutoRocket.onUpdate(EntityAutoRocket.java:307)
+    at micdoodle8.mods.galacticraft.api.prefab.entity.EntityTieredRocket.onUpdate(EntityTieredRocket.java:177)
+    at micdoodle8.mods.galacticraft.planets.asteroids.entities.EntityTier3Rocket.onUpdate(EntityTier3Rocket.java:84)
+    at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1990)
+    at net.minecraft.world.World.updateEntity(World.java:1952)
+    at net.minecraft.world.World.redirect$updateEntity$zgi000(World.java:8114)
+    at net.minecraft.world.World.updateEntities(World.java:1756)
+    at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846)
+    at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1097)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:3940)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Entity being ticked --
+  Entity Type: galacticraftplanets:rocket_t3 (micdoodle8.mods.galacticraft.planets.asteroids.entities.EntityTier3Rocket)
+  Entity ID: 64595
+  Entity Name: Tier 3 Rocket
+  Entity's Exact location: 213.50, 256.31, 243.50
+  Entity's Block location: World: (213,256,243), Chunk: (at 5,16,3 in 13,15; contains blocks 208,0,240 to 223,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+  Entity's Momentum: -0.00, 2.45, -0.00
+  Entity's Passengers: [GCEntityClientPlayerMP['windowsxprules1'/843, l='MpServer', x=213.50, y=257.71, z=243.50]]
+  Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+  Entity NBT: {Motion:[-0.0d,2.4500000476837065d,-0.0d],UUIDLeast:-6901681610381242176L,Invulnerable:0b,Air:300s,OnGround:0b,Dimension:0,PortalCooldown:0,Rotation:[45.0f,0.0f],UpdateBlocked:0b,FallDistance:0.0f,UUIDMost:6324738463586861542L,Pos:[213.5d,256.3050748092111d,243.5d],Fire:-1s,ForgeCaps:{"pneumaticcraft:hacking":{}}}
+
+-- Affected level --
+  Level name: MpServer
+  All players: 1 total; [GCEntityClientPlayerMP['windowsxprules1'/843, l='MpServer', x=213.50, y=257.71, z=243.50]]
+  Chunk stats: MultiplayerChunkCache: 8820/441
+  Level seed: 0
+  Level generator: ID 00 - default, ver 1. Features enabled: false
+  Level generator options: 
+  Level spawn location: World: (216,64,256), Chunk: (at 8,4,0 in 13,16; contains blocks 208,0,256 to 223,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+  Level time: 8018 game time, 8018 day time
+  Level dimension: 0
+  Level storage version: 0x00000 - Unknown?
+  Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+  Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+  Forced entities: 6 total; [EntityTier3Rocket['Tier 3 Rocket'/64595, l='MpServer', x=213.50, y=256.31, z=243.50], GCEntityClientPlayerMP['windowsxprules1'/843, l='MpServer', x=213.50, y=257.71, z=243.50], EntityLatchedRenderer['unknown'/1536, l='MpServer', x=8.50, y=65.00, z=8.50], EntityHat['unknown'/1537, l='MpServer', x=8.50, y=65.00, z=8.50], EntityHat['unknown'/1872, l='MpServer', x=213.50, y=257.71, z=243.50], EntityLatchedRenderer['unknown'/1873, l='MpServer', x=213.50, y=257.71, z=243.50]]
+  Retry entities: 2 total; [EntityLatchedRenderer['unknown'/1536, l='MpServer', x=8.50, y=65.00, z=8.50], EntityHat['unknown'/1537, l='MpServer', x=8.50, y=65.00, z=8.50]]
+  Server brand: fml,forge
+  Server type: Non-integrated multiplayer server
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_181, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 7261305400 bytes (6924 MB) / 12884901888 bytes (12288 MB) up to 12884901888 bytes (12288 MB)
+  JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms12288m -Xmx12288m -XX:+UseG1GC -XX:MaxGCPauseMillis=4
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.4.2760 127 mods loaded, 126 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                                           | Version                      | Source                                            | Signature                                |
+       |:------ |:-------------------------------------------- |:---------------------------- |:------------------------------------------------- |:---------------------------------------- |
+       | UCHIJA | minecraft                                    | 1.12.2                       | minecraft.jar                                     | None                                     |
+       | UCHIJA | mcp                                          | 9.42                         | minecraft.jar                                     | None                                     |
+       | UCHIJA | FML                                          | 8.0.99.99                    | modpack.jar                                       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | UCHIJA | forge                                        | 14.23.4.2760                 | modpack.jar                                       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | UCHIJA | ColorUtility                                 | 1.0.4                        | minecraft.jar                                     | None                                     |
+       | UCHIJA | creativecoredummy                            | 1.0.0                        | minecraft.jar                                     | None                                     |
+       | UCHIJA | micdoodlecore                                |                              | minecraft.jar                                     | None                                     |
+       | UCHIJA | smoothfontcore                               | 1.12.2-1.16                  | minecraft.jar                                     | None                                     |
+       | UCHIJA | com.elytradev.movingworld.common.asm.coremod |                              | minecraft.jar                                     | None                                     |
+       | UCHIJA | openmodscore                                 | 0.11.5                       | minecraft.jar                                     | None                                     |
+       | UCHIJA | foamfixcore                                  | 7.7.4                        | minecraft.jar                                     | None                                     |
+       | UCHIJA | opencomputers|core                           | 1.7.2.67                     | minecraft.jar                                     | None                                     |
+       | UCHIJA | smoothfont                                   | 1.12.2-1.16                  | SmoothFont-1.12.2-1.16.jar                        | None                                     |
+       | UCHIJA | aiimprovements                               | 0.0.1.1                      | AIImprovements-1.12.1-0.0.1b1.jar                 | None                                     |
+       | UCHIJA | appliedenergistics2                          | rv5-stable-11                | appliedenergistics2-rv5-stable-11.jar             | None                                     |
+       | UCHIJA | baubles                                      | 1.5.2                        | Baubles-1.12-1.5.2.jar                            | None                                     |
+       | UCHIJA | bibliocraft                                  | 2.4.5                        | BiblioCraft[v2.4.5][MC1.12.2].jar                 | None                                     |
+       | UCHIJA | buildcraftlib                                | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftcore                               | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftbuilders                           | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftenergy                             | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftfactory                            | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftrobotics                           | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcrafttransport                          | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | buildcraftsilicon                            | 7.99.18                      | buildcraft-7.99.18.jar                            | None                                     |
+       | UCHIJA | ic2                                          | 2.8.99-ex112                 | industrialcraft-2-2.8.99-ex112.jar                | de041f9f6187debbc77034a344134053277aa3b0 |
+       | UCHIJA | jei                                          | 4.12.0.216                   | jei_1.12.2-4.12.0.216.jar                         | None                                     |
+       | UCHIJA | forestry                                     | 5.8.1.341                    | forestry_1.12.2-5.8.1.341.jar                     | None                                     |
+       | UCHIJA | buildcraftcompat                             | 7.99.15                      | buildcraft-compat-7.99.15.jar                     | None                                     |
+       | UCHIJA | cdm                                          | 0.4.1                        | cdm-0.4.1-mc1.12.2.jar                            | None                                     |
+       | UCHIJA | cfm                                          | 5.10.0                       | cfm-5.10.0-mc1.12.2.jar                           | None                                     |
+       | UCHIJA | classiccombat                                | 1.0.0                        | ClassicCombat-1.12-1.0.0.jar                      | None                                     |
+       | UCHIJA | codechickenlib                               | 3.2.2.353                    | CodeChickenLib-1.12.2-3.2.2.353-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | UCHIJA | redstoneflux                                 | 2.0.2                        | RedstoneFlux-1.12-2.0.2.3-universal.jar           | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | cofhcore                                     | 4.5.3                        | CoFHCore-1.12.2-4.5.3.20-universal.jar            | None                                     |
+       | UCHIJA | cofhworld                                    | 1.2.0                        | CoFHWorld-1.12.2-1.2.0.5-universal.jar            | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | compactsolars                                | 1.12.2-5.0.17.340            | CompactSolars-1.12.2-5.0.17.340-universal.jar     | None                                     |
+       | UCHIJA | computercraft                                | 1.80pr1                      | ComputerCraft-1.80pr1-build5.jar                  | None                                     |
+       | UCHIJA | creativecore                                 | 1.9.9                        | CreativeCore_v1.9.32_mc1.12.2.jar                 | None                                     |
+       | UCHIJA | ctm                                          | MC1.12.2-0.3.2.18            | CTM-MC1.12.2-0.3.2.18.jar                         | None                                     |
+       | UCHIJA | cubicchunks                                  | @@VERSION@@                  | CubicChunks-1.12.2-0.0.859.0-SNAPSHOT-all.jar     | None                                     |
+       | UCHIJA | movingworld                                  | 1.12-6.350                   | movingworld-1.12-6.350-full.jar                   | None                                     |
+       | UCHIJA | davincisvessels                              | @DVESSELSVER@                | davincisvessels-1.12-6.353-full.jar               | None                                     |
+       | UCHIJA | ptrmodellib                                  | 1.0.2                        | PTRLib-1.0.2.jar                                  | None                                     |
+       | UCHIJA | props                                        | 2.6.1                        | Decocraft-2.6.1_1.12.2.jar                        | None                                     |
+       | UCHIJA | journeymap                                   | 1.12.2-5.5.2                 | journeymap-1.12.2-5.5.2.jar                       | None                                     |
+       | UCHIJA | defaultoptions                               | 9.2.7                        | DefaultOptions_1.12.2-9.2.7.jar                   | None                                     |
+       | UCHIJA | dynamiclights                                | 1.4.9                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_onfire                         | 1.0.7                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_creepers                       | 1.0.6                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_dropitems                      | 1.1.0                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_entityclasses                  | 1.0.1                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_mobequipment                   | 1.1.0                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_flamearrows                    | 1.0.1                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_floodlights                    | 1.0.3                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_otherplayers                   | 1.0.9                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | dynamiclights_theplayer                      | 1.1.3                        | DynamicLights-1.12.2.jar                          | None                                     |
+       | UCHIJA | enderstorage                                 | 2.4.5.135                    | EnderStorage-1.12.2-2.4.5.135-universal.jar       | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | UCHIJA | extrautils2                                  | 1.0                          | extrautils2-1.12-1.9.3.jar                        | None                                     |
+       | UCHIJA | opencomputers                                | 1.7.2.67                     | OpenComputers-MC1.12.2-1.7.2.67.jar               | None                                     |
+       | UCHIJA | zerocore                                     | 1.12-0.1.2.2                 | zerocore-1.12-0.1.2.2.jar                         | None                                     |
+       | UCHIJA | bigreactors                                  | 1.12.2-0.4.5.49              | ExtremeReactors-1.12.2-0.4.5.49.jar               | None                                     |
+       | UCHIJA | flansmod                                     | 5.5.2                        | Flan's Mod-1.12.2-5.5.2.jar                       | None                                     |
+       | UCHIJA | flansmodapocalypse                           | 1.0                          | Flan's Mod-1.12.2-5.5.2.jar                       | None                                     |
+       | UCHIJA | flatcoloredblocks                            | mc1.12-6.6                   | flatcoloredblocks-mc1.12-6.6.jar                  | None                                     |
+       | UCHIJA | foamfix                                      | 0.10.1-1.12.2                | foamfix-0.10.1-1.12.2.jar                         | None                                     |
+       | UCHIJA | forgemultipartcbe                            | 2.5.0.71                     | ForgeMultipart-1.12.2-2.5.0.71-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | UCHIJA | microblockcbe                                | 2.5.0.71                     | ForgeMultipart-1.12.2-2.5.0.71-universal.jar      | None                                     |
+       | UCHIJA | minecraftmultipartcbe                        | 2.5.0.71                     | ForgeMultipart-1.12.2-2.5.0.71-universal.jar      | None                                     |
+       | UCHIJA | fw                                           | 1.6.0                        | FullscreenWindowed-1.12-1.6.0.jar                 | None                                     |
+       | UCHIJA | galacticraftcore                             | 4.0.1.181                    | GalacticraftCore-1.12.2-4.0.1.181.jar             | None                                     |
+       | UCHIJA | galacticraftplanets                          | 4.0.1.181                    | Galacticraft-Planets-1.12.2-4.0.1.181.jar         | None                                     |
+       | UCHIJA | ichunutil                                    | 7.1.4                        | iChunUtil-1.12.2-7.1.4.jar                        | None                                     |
+       | UCHIJA | hats                                         | 7.0.0                        | Hats-1.12.2-7.0.2.jar                             | None                                     |
+       | UCHIJA | waila                                        | 1.8.26                       | Hwyla-1.8.26-B41_1.12.2.jar                       | None                                     |
+       | UCHIJA | icbmclassic                                  | 1.12.2-3.2.0.48              | ICBM-classic-1.12.2-3.2.0b48.jar                  | None                                     |
+       | UCHIJA | inventorytweaks                              | 1.64-dev+release.110.b4fac73 | InventoryTweaks-1.64-dev.jar                      | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+       | UCHIJA | ironchest                                    | 1.12.2-7.0.46.831            | ironchest-1.12.2-7.0.46.831.jar                   | None                                     |
+       | UCHIJA | jeid                                         | 1.0.1-16                     | JustEnoughIDs-1.0.1-16.jar                        | None                                     |
+       | UCHIJA | malisiscore                                  | 1.12.2-6.4.0                 | malisiscore-1.12.2-6.4.0.jar                      | None                                     |
+       | UCHIJA | malisisdoors                                 | 1.12.2-7.3.0                 | malisisdoors-1.12.2-7.3.0.jar                     | None                                     |
+       | UCHIJA | radixcore                                    | 1.12.x-2.2.1                 | RadixCore-1.12.x-2.2.1-universal.jar              | None                                     |
+       | UCHIJA | mca                                          | 1.12.2-5.3.1                 | MCA-1.12.x-5.3.1-universal.jar                    | None                                     |
+       | UCHIJA | mcef                                         | 0.9                          | mcef-1.12.2-0.9.jar                               | None                                     |
+       | UCHIJA | mekanism                                     | 1.12.2-9.4.13.349            | Mekanism-1.12.2-9.4.13.349.jar                    | None                                     |
+       | UCHIJA | mekanismgenerators                           | 9.4.11                       | MekanismGenerators-1.12.2-9.4.13.349.jar          | None                                     |
+       | UCHIJA | mekanismtools                                | 9.4.11                       | MekanismTools-1.12.2-9.4.13.349.jar               | None                                     |
+       | UCHIJA | moreplayermodels                             | 1.12.2                       | MorePlayerModels_1.12.2(18jan18).jar              | None                                     |
+       | UCHIJA | morph                                        | 7.1.2                        | Morph-1.12.2-7.1.2.jar                            | None                                     |
+       | UCHIJA | mrtjpcore                                    | 2.1.4.38                     | MrTJPCore-1.12.2-2.1.4.38-universal.jar           | None                                     |
+       | UCHIJA | musiccraft                                   | 3.2.3                        | MusicCraft-3.2.3.jar                              | None                                     |
+       | UCHIJA | noslabs                                      | 2.0.3-6.28.2018              | NosLabs-2.0.3-6.28.2018.jar                       | None                                     |
+       | UCHIJA | nei                                          | 2.4.1                        | NotEnoughItems-1.12.2-2.4.1.239-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | UCHIJA | nuclearphysics                               | 0.1.37                       | nuclearphysics-1.12.2-0.1.37.jar                  | None                                     |
+       | UCHIJA | opframe                                      | 1.4.0                        | OnlinePicFrame_v1.4.19_mc1.12.2.jar               | None                                     |
+       | UCHIJA | openmods                                     | 0.11.5                       | OpenModsLib-1.12.2-0.11.5-snapshot-518.jar        | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | UCHIJA | openblocks                                   | 1.7.6                        | OpenBlocks-1.12.2-1.7.6-snapshot-833.jar          | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | UCHIJA | thaumcraft                                   | 6.1.BETA24                   | Thaumcraft-1.12.2-6.1.BETA24.jar                  | None                                     |
+       | UCHIJA | pneumaticcraft                               | 1.12.2-0.8.0-267             | pneumaticcraft-repressurized-1.12.2-0.8.0-267.jar | None                                     |
+       | UCHIJA | projecte                                     | 1.12-PE1.3.1B                | ProjectE-1.12-PE1.3.1B.jar                        | None                                     |
+       | UCHIJA | projectred-core                              | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-Base.jar              | None                                     |
+       | UCHIJA | projectred-compat                            | 1.0                          | ProjectRed-1.12.2-4.9.2.101-compat.jar            | None                                     |
+       | UCHIJA | projectred-integration                       | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-integration.jar       | None                                     |
+       | UCHIJA | projectred-transmission                      | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-integration.jar       | None                                     |
+       | UCHIJA | projectred-fabrication                       | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-fabrication.jar       | None                                     |
+       | UCHIJA | projectred-illumination                      | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-lighting.jar          | None                                     |
+       | UCHIJA | projectred-expansion                         | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-mechanical.jar        | None                                     |
+       | UCHIJA | projectred-relocation                        | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-mechanical.jar        | None                                     |
+       | UCHIJA | projectred-transportation                    | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-mechanical.jar        | None                                     |
+       | UCHIJA | projectred-exploration                       | 4.9.2.101                    | ProjectRed-1.12.2-4.9.2.101-world.jar             | None                                     |
+       | UCHIJA | thermalfoundation                            | 2.5.0                        | ThermalFoundation-1.12.2-2.5.0.19-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | thermalexpansion                             | 5.5.0                        | ThermalExpansion-1.12.2-5.5.0.29-universal.jar    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | thermaldynamics                              | 2.5.1                        | ThermalDynamics-1.12.2-2.5.1.14-universal.jar     | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | simplyjetpacks                               | 2.2.7.55                     | SimplyJetpacks2-1.12.2-2.2.7.55.jar               | None                                     |
+       | UCHIJA | sync                                         | 7.0.2                        | Sync-1.12.2-7.0.2.jar                             | None                                     |
+       | UCHIJA | tesla                                        | 1.0.63                       | Tesla-1.12.2-1.0.63.jar                           | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | UCHIJA | thermalcultivation                           | 0.3.0                        | ThermalCultivation-1.12.2-0.3.0.7-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | thermalinnovation                            | 0.3.0                        | ThermalInnovation-1.12.2-0.3.0.7-universal.jar    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | UCHIJA | treechopper                                  | 1.2.4                        | TreeChopper-1.12.2-1.2.4.jar                      | None                                     |
+       | UCHIJA | vanillafix                                   | 1.0.9-97                     | VanillaFix-1.0.9-97.jar                           | None                                     |
+       | UCHIJA | wanionlib                                    | 1.12.2-1.5                   | WanionLib-1.12.2-1.5.jar                          | None                                     |
+       | UCHIJA | webdisplays                                  | 1.0                          | webdisplays-1.12.2-1.0.jar                        | None                                     |
+       | UCHIJA | worldedit                                    | 6.1.9-SNAPSHOT               | worldedit-forge-mc1.12.1-6.1.9-SNAPSHOT-dist.jar  | None                                     |
+       | UCHIJA | wrcbe                                        | 2.3.1                        | WR-CBE-1.12.2-2.3.1.30-universal.jar              | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | UCHIJA | wtp                                          | 1.12.1-1.4.0                 | wtp-1.12.1-1.4.0.jar                              | None                                     |
+       | UCHIJA | unidict                                      | 1.12.2-2.7b                  | UniDict-1.12.2-2.7b.jar                           | None                                     |
+       | UD     | cubicchunkscore                              | @@VERSION@@                  | minecraft.jar                                     | None                                     |
+  Loaded coremods (and transformers): CreativePatchingLoader (CreativeCore_v1.9.32_mc1.12.2.jar)
+                                        
+                                      MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.1.181.jar)
+                                        micdoodle8.mods.miccore.MicdoodleTransformer
+                                      CubicChunksCoreMod (CubicChunks-1.12.2-0.0.859.0-SNAPSHOT-all.jar)
+                                        
+                                      CorePlugin (SmoothFont-1.12.2-1.16.jar)
+                                        bre.smoothfont.asm.Transformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.9-97.jar)
+                                        
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.11.5-snapshot-518.jar)
+                                        openmods.core.OpenModsClassTransformer
+                                      ShutdownPatcher (mcef-1.12.2-0.9-coremod.jar)
+                                        net.montoyo.mcef.coremod.ShutdownPatcher
+                                      MalisisCorePlugin (malisiscore-1.12.2-6.4.0.jar)
+                                        
+                                      MovingWorldCore (movingworld-1.12-6.350-full.jar)
+                                        
+                                      CTMCorePlugin (CTM-MC1.12.2-0.3.2.18.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      Inventory Tweaks Coremod (InventoryTweaks-1.64-dev.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      TransformerLoader (OpenComputers-MC1.12.2-1.7.2.67.jar)
+                                        li.cil.oc.common.asm.ClassTransformer
+                                      DLFMLCorePlugin (DynamicLights-1.12.2.jar)
+                                        atomicstryker.dynamiclights.common.DLTransformer
+                                      JEIDLoadingPlugin (JustEnoughIDs-1.0.1-16.jar)
+                                        
+                                      ColorUtilityCorePlugin (ColorUtility-universal-1.0.4.jar)
+                                        com.Axeryok.ColorUtility.ColorUtilityTransformer
+                                      Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.10.1-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 399.07' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+  OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+  AE2 Version: stable rv5-stable-11 for Forge 14.23.1.2554
+  AE2 Integration: IC2:ON, RC:OFF, MFR:OFF, Waila:ON, InvTweaks:ON, JEI:ON, Mekanism:ON, OpenComputers:ON, THE_ONE_PROBE:OFF, TESLA:ON, CRAFTTWEAKER:OFF
+  Suspected Mods: Galacticraft Core (galacticraftcore), Galacticraft Planets (galacticraftplanets)
+  Launched Version: 1.12.2-forge1.12.2-14.23.4.2760
+  LWJGL: 2.9.4
+  OpenGL: GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 399.07, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: PureBDcraft 128x MC112.zip, PureBDcraft More 3D Blocks MC111.zip, PureBDcraft More 3D Items MC112.zip, Sphax_Telkit_128x.zip
+  Current Language: English (US)
+  Profiler Position: N/A (disabled)
+  CPU: 8x Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  Client Crashes Since Restart: 1
+  Integrated Server Crashes Since Restart: 0

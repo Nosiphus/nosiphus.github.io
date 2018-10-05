@@ -7,12 +7,15 @@
 	width: 40%;
 }
 
+li img {
+    height: 35px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  text-align: center;
   background-color: #005596;
 }
 
@@ -24,7 +27,7 @@ li a, .dropbtn {
 	display: block;
 	color: #7dc7ea;
 	align-content: center;
-	padding: 14px 16px;
+	padding: 8px;
 	text-decoration: none;
 }
 

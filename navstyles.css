@@ -16,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #005596;
+  background-color: #002D99;
 }
 
 li {
@@ -25,14 +25,14 @@ li {
 
 li a, .dropbtn {
 	display: block;
-	color: #7dc7ea;
+	color: #003DCC;
 	align-content: center;
 	padding: 8px;
 	text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: #003965;
+	background-color: #00267F;
 }
 
 li.dropdown {
@@ -42,21 +42,21 @@ li.dropdown {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #005596;
+	background-color: #002D99;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a {
-	color: #7dc7ea;
+	color: #008CFF;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #003965}
+.dropdown-content a:hover {background-color: #00267F}
 
 .dropdown:hover .dropdown-content {
 	display: block;

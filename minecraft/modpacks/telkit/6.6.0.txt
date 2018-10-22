@@ -1,0 +1,124 @@
+The following is a sample layout file for the nCraft download system.
+A weblink prefix opens a webpage instead of downloading the file directly.
+A folder name identifies its location relative to the mod's main folder.
+-c is client only; -s is server only; -u is universal
+-i is for mods like OptiFine and Flan's Mod that have to be installed differently.
+-z is for extracting zip files.
+
+id="telkit"
+name="Telkit"
+author="Nosiphus"
+version="6.6.0"
+date="10.20.2018"
+
+/ -z
+flansmod="https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download"
+telkitconfigs="https://www.nosiphus.com/minecraft/modpacks/telkit/configs/6.6.0.zip"
+
+/bin
+forge="http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2772/forge-1.12.2-14.23.5.2772-universal.jar" -r:modpack.jar
+
+/fontfiles -z
+quicksand="https://fonts.google.com/download?family=Quicksand"
+
+/mods/1.12.2
+baubles="https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
+chickenasm="http://chickenbones.net/maven/codechicken/ChickenASM/1.12-1.0.2.7/ChickenASM-1.12-1.0.2.7.jar"
+codechickenlib="http://chickenbones.net/maven/codechicken/CodeChickenLib/1.12.2-3.2.2.353/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
+forgemultipart="http://chickenbones.net/maven/codechicken/ForgeMultipart/1.12.2-2.6.0.79/ForgeMultipart-1.12.2-2.6.0.79-universal.jar"
+mrtjpcore="http://chickenbones.net/maven/mrtjp/MrTJPCore/1.12.2-2.1.4.38/MrTJPCore-1.12.2-2.1.4.38-universal.jar"
+
+/mods -c
+defaultoptions=
+dynamiclights="https://minecraft.curseforge.com/projects/dynamic-lights/files/2563244/download"
+fullscreenwindowed="https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2456007/download"
+smoothfont="https://minecraft.curseforge.com/projects/smooth-font/files/2627587/download"
+wtp="https://minecraft.curseforge.com/projects/wtp-whats-this-pack/files/2470449/download"
+xaerosminimap="https://minecraft.curseforge.com/projects/xaeros-minimap/files/2629820/download"
+
+/mods -s
+discordchat="https://minecraft.curseforge.com/projects/discordchat/files/2488804/download"
+thutessentials="https://minecraft.curseforge.com/projects/thut-essentials/files/2616350/download"
+
+/mods -u
+aiimprovements="https://minecraft.curseforge.com/projects/ai-improvements/files/2468387/download"
+appliedenergistics2="https://minecraft.curseforge.com/projects/applied-energistics-2/files/2624747/download"
+betterfps="https://minecraft.curseforge.com/projects/betterfps/files/2483393/download"
+bibliocraft="https://minecraft.curseforge.com/projects/bibliocraft/files/2574880/download"
+buildcraft="https://mod-buildcraft.com/releases/BuildCraft/7.99.18/buildcraft-7.99.18.jar"
+buildcraft-compat="https://mod-buildcraft.com/releases/BuildCraftCompat/7.99.15/buildcraft-compat-7.99.15.jar"
+cdm="https://mrcrayfish.com/download?type=mod&id=c278723626e2b49a3acb2b0adb926fac9bcfcda1"
+cfm="https://mrcrayfish.com/download?type=mod&id=187ad9cbded18b590b1b651fa8f33fbc5ba93bc0"
+cofhcore="https://minecraft.curseforge.com/projects/cofhcore/files/2623990/download"
+cofhworld="https://minecraft.curseforge.com/projects/cofh-world/files/2623091/download"
+colorutility="https://minecraft.curseforge.com/projects/colorutility/files/2440182/download"
+compactsolars="https://minecraft.curseforge.com/projects/compact-solars/files/2497832/download"
+computercraft="https://cc.crzd.me/maven/dan200/computercraft/ComputerCraft/1.80pr1-build5/ComputerCraft-1.80pr1-build5.jar"
+creativecore="https://minecraft.curseforge.com/projects/creativecore/files/2624689/download"
+ctm="https://minecraft.curseforge.com/projects/ctm/files/2629306/download"
+davincisvessels="https://ci.elytradev.com/job/elytra/job/DavincisVessels/job/1.12/33/artifact/build/libs/davincisvessels-1.12-6.353-full.jar"
+decocraft="https://minecraft.curseforge.com/projects/decocraft2/files/2621015/download"
+enderstorage="http://chickenbones.net/maven/codechicken/EnderStorage/1.12.2-2.4.5.136/EnderStorage-1.12.2-2.4.5.136-universal.jar"
+extrautilities2="https://minecraft.curseforge.com/projects/extra-utilities/files/2627840/download"
+extremereactors="https://minecraft.curseforge.com/projects/extreme-reactors/files/2568534/download"
+foamfix="https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2621496/download"
+forestry="http://jenkins.ic2.player.to/job/Forestry_1.11/356/artifact/build/libs/forestry_1.12.2-5.8.2.356.jar"
+galacticraft-core="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar"
+galacticraft-planets="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
+hats="https://minecraft.curseforge.com/projects/hats/files/2487838/download"
+hwyla="https://minecraft.curseforge.com/projects/hwyla/files/2568751/download"
+icbm-classic="https://minecraft.curseforge.com/projects/icbm-classic/files/2629645/download"
+ichunutil="https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download"
+industrialcraft2="http://jenkins.ic2.player.to/job/IC2_112/101/artifact/build/libs/industrialcraft-2-2.8.101-ex112.jar"
+inventory-tweaks="https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356/download"
+ironchest="http://files.minecraftforge.net/maven/cpw/mods/ironchest/1.12.2-7.0.52.837/ironchest-1.12.2-7.0.52.837.jar"
+jei="https://minecraft.curseforge.com/projects/jei/files/2623794/download"
+justenoughids="https://minecraft.curseforge.com/projects/jeid/files/2626479/download"
+littletiles="https://minecraft.curseforge.com/projects/littletiles/files/2629447/download"
+malisiscore="https://minecraft.curseforge.com/projects/malisiscore/files/2526670/download"
+malisisdoors="https://minecraft.curseforge.com/projects/malisisdoors/files/2526674/download"
+mekanism="https://minecraft.curseforge.com/projects/mekanism/files/2572881/download"
+mekanism-generators="https://minecraft.curseforge.com/projects/mekanism-generators/files/2572883/download"
+mekanism-tools="https://minecraft.curseforge.com/projects/mekanism-tools/files/2572884/download"
+micdoodlecore="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
+moreplayermodels="https://minecraft.curseforge.com/projects/more-player-models/files/2521602/download"
+morph="https://minecraft.curseforge.com/projects/morph/files/2510763/download"
+movingworld="https://ci.elytradev.com/job/elytra/job/MovingWorld/job/1.12/28/artifact/build/libs/movingworld-1.12-6.350-full.jar"
+noslabs="https://github.com/Nosiphus/noslabs/raw/master/releases/NosLabs-2.0.3-6.28.2018.jar"
+nei="http://chickenbones.net/maven/codechicken/NotEnoughItems/1.12.2-2.4.2.240/NotEnoughItems-1.12.2-2.4.2.240-universal.jar"
+nuclearphysics="https://minecraft.curseforge.com/projects/nuclear-physics/files/2624162/download"
+onlinepicframe="https://minecraft.curseforge.com/projects/onlinepictureframe/files/2627197/download"
+openblocks="https://builds.openmods.info/job/OpenBlocks/838/artifact/build/libs/OpenBlocks-1.12.2-1.8-snapshot-838.jar"
+openmodslib="https://builds.openmods.info/job/OpenModsLib/521/artifact/build/libs/OpenModsLib-1.12.2-0.12.1-snapshot-521.jar"
+pneumaticcraft-repressurized="https://minecraft.curseforge.com/projects/pneumaticcraft-repressurized/files/2625592/download"
+projecte="https://minecraft.curseforge.com/projects/projecte/files/2578138/download"
+projectred-base="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-Base.jar"
+projectred-compat="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-compat.jar"
+projectred-fabrication="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-fabrication.jar"
+projectred-integration="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-integration.jar"
+projectred-lighting="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-lighting.jar"
+projectred-mechanical="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-mechanical.jar"
+projectred-world="http://chickenbones.net/maven/mrtjp/ProjectRed/1.12.2-4.9.2.101/ProjectRed-1.12.2-4.9.2.101-world.jar"
+ptrlib="https://minecraft.curseforge.com/projects/ptrlib/files/2621013/download"
+redstoneflux="https://minecraft.curseforge.com/projects/redstone-flux/files/2623090/download"
+simplyjetpacks2="http://modmuss50.me:8080/job/SimplyJetpacks-2/job/SimplyJetpacks-2-1.12/59/artifact/build/libs/SimplyJetpacks2-1.12.2-2.2.9.59.jar"
+sync="https://minecraft.curseforge.com/projects/sync/files/2537588/download"
+tesla="https://minecraft.curseforge.com/projects/tesla/files/2487959/download"
+thaumcraft="https://minecraft.curseforge.com/projects/thaumcraft/files/2629023/download"
+thermalcultivation="https://minecraft.curseforge.com/projects/thermal-cultivation/files/2623100/download"
+thermaldynamics="https://minecraft.curseforge.com/projects/thermal-dynamics/files/2624182/download"
+thermalexpansion="https://minecraft.curseforge.com/projects/thermalexpansion/files/2624855/download"
+thermalfoundation="https://minecraft.curseforge.com/projects/thermal-foundation/files/2623991/download"
+thermalinnovation="https://minecraft.curseforge.com/projects/thermal-innovation/files/2623101/download"
+treechopper="https://minecraft.curseforge.com/projects/tree-chopper/files/2492770/download"
+unidict="https://minecraft.curseforge.com/projects/unidict/files/2627050/download"
+vanillafix="https://minecraft.curseforge.com/projects/vanillafix/files/2574249/download"
+wanionlib="https://minecraft.curseforge.com/projects/wanionlib/files/2534271/download"
+worldedit="http://builds.enginehub.org/job/worldedit/10182/download/worldedit-forge-mc1.12.1-6.1.9-SNAPSHOT-dist.jar"
+wr-cbe="http://chickenbones.net/maven/codechicken/WR-CBE/1.12.2-2.3.1.30/WR-CBE-1.12.2-2.3.1.30-universal.jar"
+zerocore="https://minecraft.curseforge.com/projects/zerocore/files/2568531/download"
+
+/mods -u -i
+mcef="https://montoyo.net/wd3/?modid=mcef#" -m:"Download mod version 0.9 for 1.12.2"
+musiccraft="http://casualient.com/3156186/musiccraft323mediafire" -m:"Click SKIP AD in top right corner. Download to the Telkit mods directory."
+webdisplays="https://montoyo.net/wd3/?modid=webdisplays" -m:"Download mod version 1.0 for 1.12.2"

@@ -6,6 +6,7 @@ So, each file will have a modpack header, as demonstrated here:
 id="telkit" - This is the spaceless, all-lowercase ID of your modpack. Spaces and characters are to be represented by dashes, like this: "telkit-classic".
 name="Telkit" - This is the proper name for the pack, including capitalization, spaces, and non-alphanumerical characters.
 author="Nosiphus" - This is where you put you or your organization's name, and with proper formatting.
+minecraft="1.12.2" - This indicates the version of Minecraft that your pack is designed for.
 version="6.6.0" - This is where you place the version identifier. The file should also be named like this, i.e. "6.6.0.txt".
 date="10.20.2018" - This is where you place the date the update was released. It is in US format of Month-Date-Year.
 
@@ -17,6 +18,7 @@ Sometimes, however, mods cannot be directly downloaded from their servers, eithe
 -w will direct the launcher to open your browser to download the mod.
 -m allows you to add specific instructions on what to do. This is useful when it comes to adf.ly confusing non-tech savvy users.
 -z indicates the download is a zip file with multiple directories. This is noted in modern versions of Flan's Mod.
+-r will tell the launcher to rename a file, notably renaming the Forge download to modpack.jar.
 
 Directory layouts are as follows:
 Folders should be in alphabetical order, and in the order of client, server, and then universal, like this. Subfolders take priority.

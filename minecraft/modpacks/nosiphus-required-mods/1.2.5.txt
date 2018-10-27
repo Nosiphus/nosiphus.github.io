@@ -1,0 +1,35 @@
+id="nosiphus-required-mods"
+name="Nosiphus Required Mods"
+author="Nosiphus"
+minecraft="1.5.2"
+version="1.2.5"
+date="7.17.2013"
+
+/bin
+forge="http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.5.2-7.8.1.738/forge-1.5.2-7.8.1.738-universal.zip" -r="modpack.jar"
+
+/coremods -c
+lumyskinpatch="https://minecraft.curseforge.com/projects/lumy-skin-patch/files/2543190/download"
+
+/coremods -u
+codechickencore="http://chickenbones.net/Files/Old_Versions/1.5.2/CodeChickenCore%200.8.7.3-fix1.jar"
+galacticraft="https://ci.micdoodle8.com/job/Galacticraft/410/artifact/builds/Galacticraft-1.5.2-a0.1.36.410.jar"
+nei="http://chickenbones.net/Files/Old_Versions/1.5.2/NotEnoughItems%201.5.2.28.jar"
+treecapitator="https://minecraft.curseforge.com/projects/treecapitator/files/2218752/download"
+
+/mods -u
+atomicscience=//We'll have to rehost this one as the original download is no longer available.//
+baconmod=
+bspkrscore="http://bspk.rs/MC/bspkrsCore/[1.5.2]bspkrsCorev3.05.zip"
+buildcraft=
+computercraft=
+flansmod=
+icbmcontraption=
+icbmexplosion=
+icbmsentry=
+jammyfurniture=//We'll have to rehost this one as the original download is no longer available.//
+minecraftcomesalive=
+mekanism=
+mekanismgenerators=
+mekanismtools=
+waila=

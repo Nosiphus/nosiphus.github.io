@@ -20,6 +20,9 @@ forgemultipart="http://files.minecraftforge.net/ForgeMultipart/ForgeMultipart-un
 /mods/1.6.4/ -c
 mcpatcher=//We'll have to rehost this one. Once nCraft is available, OptiFine will take this spot.
 
+/mods -c
+lumyskinpatch="https://minecraft.curseforge.com/projects/lumy-skin-patch/files/2543190/download"
+
 /mods -u
 appliedenergistics="https://minecraft.curseforge.com/projects/applied-energistics-1/files/2212864/download"
 bibliocraft="https://minecraft.curseforge.com/projects/bibliocraft/files/2229127/download"
@@ -37,7 +40,6 @@ ic2laserfix="http://www.mirc.cz/IC2LaserFix-2.0.jar"
 icbm="https://minecraft.curseforge.com/projects/icbm/files/2218541/download"
 industrialcraft2="http://jenkins.ic2.player.to/job/IC2_experimental/397/artifact/packages/industrialcraft-2_2.0.397-experimental.jar"
 ironchest="http://files.minecraftforge.net/maven/cpw/mods/ironchest/1.6.4-5.4.1.702/ironchest-1.6.4-5.4.1.702-universal.zip"
-lumyskinpatch="https://minecraft.curseforge.com/projects/lumy-skin-patch/files/2543190/download"
 minecraftcomesalive="https://minecraft.curseforge.com/projects/minecraft-comes-alive-mca/files/774926/download"
 mekanism=//We've asked aidancbrady to upload the Mekanism builds for 1.6.4 to CurseForge.
 mekanismgenerators=//ditto//

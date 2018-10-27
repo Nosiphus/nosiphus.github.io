@@ -1,6 +1,7 @@
 id="telkit"
 name="Telkit"
 author="Nosiphus"
+minecraft="1.12.2"
 version="6.6.0"
 date="10.20.2018"
 

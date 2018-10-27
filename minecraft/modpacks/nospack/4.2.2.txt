@@ -3,6 +3,7 @@ Currently under construction.
 id="nospack"
 name="NosPack"
 author="Nosiphus"
+minecraft="1.6.4"
 version="4.2.2"
 date="2.14.2015"
 

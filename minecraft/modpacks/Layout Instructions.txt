@@ -1,0 +1,44 @@
+Hello there, nCraft modpack authors! This document was created to help explain the layout of our modpack download system.
+Now, presently, the launcher does not exist, but setting this system up on the Nosiphus website will be critical for it to function.
+
+So, each file will have a modpack header, as demonstrated here:
+
+id="telkit" - This is the spaceless, all-lowercase ID of your modpack. Spaces and characters are to be represented by dashes, like this: "telkit-classic".
+name="Telkit" - This is the proper name for the pack, including capitalization, spaces, and non-alphanumerical characters.
+author="Nosiphus" - This is where you put you or your organization's name, and with proper formatting.
+version="6.6.0" - This is where you place the version identifier. The file should also be named like this, i.e. "6.6.0.txt".
+date="10.20.2018" - This is where you place the date the update was released. It is in US format of Month-Date-Year.
+
+Next, you will place the directory structure and any special commands for each directory.
+-c indicates client-only mods.
+-s indicates server-only mods.
+-u indicates universal mods.
+Sometimes, however, mods cannot be directly downloaded from their servers, either due to webpage authorization or the download not being the JAR on its own.
+-w will direct the launcher to open your browser to download the mod.
+-m allows you to add specific instructions on what to do. This is useful when it comes to adf.ly confusing non-tech savvy users.
+-z indicates the download is a zip file with multiple directories. This is noted in modern versions of Flan's Mod.
+
+Directory layouts are as follows:
+Folders should be in alphabetical order, and in the order of client, server, and then universal, like this. Subfolders take priority.
+/
+/bin
+/mods/1.12.2 -u
+/mods -c
+/mods -c -w
+/mods -s
+/mods -u
+/mods -u -w
+
+/ -u -z -> This tells the launcher that the next few mods are universal mods that need to be extracted in the root folder.
+flansmod="https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download"
+The mod has a short ID in front. This format should not contain spaces unless it's for modules, for example:
+opencomputers, not open-computers
+projectred-world, not projectredworld or project-red-world
+After that, there is an equal sign, then a link inside quotation marks.
+
+/mods/1.12.2 -u -> This tells the pack that there is a specific subfolder where certain universal mods must go.
+chickenasm="http://chickenbones.net/maven/codechicken/ChickenASM/1.12-1.0.2.7/ChickenASM-1.12-1.0.2.7.jar"
+
+/mods -c -w -> This tells the launcher that there are client-side mods that have to be downloaded from a webpage, like so:
+optifine="https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E2.jar" -m="Click Download OptiFine_1.12.2...., then run the file, and extract to the Telkit mods directory."
+The -m tells the launcher to give the users instructions on how to download and install the mod.

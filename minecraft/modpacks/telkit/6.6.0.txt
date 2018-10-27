@@ -115,3 +115,6 @@ zerocore="https://minecraft.curseforge.com/projects/zerocore/files/2568531/downl
 mcef="https://montoyo.net/wd3/?modid=mcef#" -m:"Download mod version 0.9 for 1.12.2"
 musiccraft="http://casualient.com/3156186/musiccraft323mediafire" -m:"Click SKIP AD in top right corner. Download to the Telkit mods directory."
 webdisplays="https://montoyo.net/wd3/?modid=webdisplays" -m:"Download mod version 1.0 for 1.12.2"
+
+/resourcepacks
+ctp="https://minecraft.curseforge.com/projects/ctp/files/2457838/download"

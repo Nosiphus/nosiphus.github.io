@@ -1,0 +1,16 @@
+Currently under construction.
+This is a port of Tekkit Classic to the nCraft launcher. This version, 4.0.0, will include bugfixes and newer 1.2.5 releases. It will not be compatible with the custom Bukkit server of Tekkit 3.1.2.
+
+id="tekkit-classic"
+name="Tekkit Classic"
+author="Technic Dev Team, updated by Nosiphus"
+minecraft="1.2.5"
+version="4.0.0"
+date="TBD"
+
+/bin
+forge="http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.2.5-3.4.9.171/forge-1.2.5-3.4.9.171-client.zip" -r="modpack.jar"
+
+/jarmods -c
+
+/mods

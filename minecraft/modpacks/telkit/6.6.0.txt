@@ -1,10 +1,3 @@
-The following is a sample layout file for the nCraft download system.
-A weblink prefix opens a webpage instead of downloading the file directly.
-A folder name identifies its location relative to the mod's main folder.
--c is client only; -s is server only; -u is universal
--w is for mods that require a webpage to be downloaded, -m signifies a message for the user when downloading
--z is for extracting downloaded zip files.
-
 id="telkit"
 name="Telkit"
 author="Nosiphus"

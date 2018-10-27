@@ -21,15 +21,17 @@ treecapitator="https://minecraft.curseforge.com/projects/treecapitator/files/221
 atomicscience=//We'll have to rehost this one as the original download is no longer available.//
 baconmod=
 bspkrscore="http://bspk.rs/MC/bspkrsCore/[1.5.2]bspkrsCorev3.05.zip"
-buildcraft=
-computercraft=
+buildcraft="https://www.mod-buildcraft.com/releases/BuildCraft/3.7.2/buildcraft-A-3.7.2.jar"
 flansmod=
 icbmcontraption=
 icbmexplosion=
 icbmsentry=
 jammyfurniture=//We'll have to rehost this one as the original download is no longer available.//
-minecraftcomesalive=
+minecraftcomesalive="https://minecraft.curseforge.com/projects/minecraft-comes-alive-mca/files/769401/download"
 mekanism=
 mekanismgenerators=
 mekanismtools=
-waila=
+waila="https://minecraft.curseforge.com/projects/waila/files/785109/download"
+
+/mods -u -w
+computercraft="http://www.mediafire.com/file/skwmkw7ybr18rua/ComputerCraft1.53.zip" -m:"Click the button that says DOWNLOAD (1012.02 KB). Download to the Nosiphus Required Mods mods directory."

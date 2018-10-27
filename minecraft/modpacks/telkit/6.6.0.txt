@@ -2,8 +2,8 @@ The following is a sample layout file for the nCraft download system.
 A weblink prefix opens a webpage instead of downloading the file directly.
 A folder name identifies its location relative to the mod's main folder.
 -c is client only; -s is server only; -u is universal
--i is for mods like OptiFine and Flan's Mod that have to be installed differently.
--z is for extracting zip files.
+-w is for mods that require a webpage to be downloaded, -m signifies a message for the user when downloading
+-z is for extracting downloaded zip files.
 
 id="telkit"
 name="Telkit"
@@ -21,7 +21,7 @@ forge="http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.
 /fontfiles -z
 quicksand="https://fonts.google.com/download?family=Quicksand"
 
-/mods/1.12.2
+/mods/1.12.2 -u
 baubles="https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
 chickenasm="http://chickenbones.net/maven/codechicken/ChickenASM/1.12-1.0.2.7/ChickenASM-1.12-1.0.2.7.jar"
 codechickenlib="http://chickenbones.net/maven/codechicken/CodeChickenLib/1.12.2-3.2.2.353/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
@@ -29,7 +29,7 @@ forgemultipart="http://chickenbones.net/maven/codechicken/ForgeMultipart/1.12.2-
 mrtjpcore="http://chickenbones.net/maven/mrtjp/MrTJPCore/1.12.2-2.1.4.38/MrTJPCore-1.12.2-2.1.4.38-universal.jar"
 
 /mods -c
-defaultoptions=
+defaultoptions="https://minecraft.curseforge.com/projects/default-options/files/2624732/download"
 dynamiclights="https://minecraft.curseforge.com/projects/dynamic-lights/files/2563244/download"
 fullscreenwindowed="https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2456007/download"
 smoothfont="https://minecraft.curseforge.com/projects/smooth-font/files/2627587/download"
@@ -67,10 +67,10 @@ galacticraft-core="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/
 galacticraft-planets="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
 hats="https://minecraft.curseforge.com/projects/hats/files/2487838/download"
 hwyla="https://minecraft.curseforge.com/projects/hwyla/files/2568751/download"
-icbm-classic="https://minecraft.curseforge.com/projects/icbm-classic/files/2629645/download"
+icbmclassic="https://minecraft.curseforge.com/projects/icbm-classic/files/2629645/download"
 ichunutil="https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download"
 industrialcraft2="http://jenkins.ic2.player.to/job/IC2_112/101/artifact/build/libs/industrialcraft-2-2.8.101-ex112.jar"
-inventory-tweaks="https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356/download"
+inventorytweaks="https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356/download"
 ironchest="http://files.minecraftforge.net/maven/cpw/mods/ironchest/1.12.2-7.0.52.837/ironchest-1.12.2-7.0.52.837.jar"
 jei="https://minecraft.curseforge.com/projects/jei/files/2623794/download"
 justenoughids="https://minecraft.curseforge.com/projects/jeid/files/2626479/download"
@@ -78,8 +78,8 @@ littletiles="https://minecraft.curseforge.com/projects/littletiles/files/2629447
 malisiscore="https://minecraft.curseforge.com/projects/malisiscore/files/2526670/download"
 malisisdoors="https://minecraft.curseforge.com/projects/malisisdoors/files/2526674/download"
 mekanism="https://minecraft.curseforge.com/projects/mekanism/files/2572881/download"
-mekanism-generators="https://minecraft.curseforge.com/projects/mekanism-generators/files/2572883/download"
-mekanism-tools="https://minecraft.curseforge.com/projects/mekanism-tools/files/2572884/download"
+mekanismgenerators="https://minecraft.curseforge.com/projects/mekanism-generators/files/2572883/download"
+mekanismtools="https://minecraft.curseforge.com/projects/mekanism-tools/files/2572884/download"
 micdoodlecore="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
 moreplayermodels="https://minecraft.curseforge.com/projects/more-player-models/files/2521602/download"
 morph="https://minecraft.curseforge.com/projects/morph/files/2510763/download"
@@ -115,10 +115,10 @@ unidict="https://minecraft.curseforge.com/projects/unidict/files/2627050/downloa
 vanillafix="https://minecraft.curseforge.com/projects/vanillafix/files/2574249/download"
 wanionlib="https://minecraft.curseforge.com/projects/wanionlib/files/2534271/download"
 worldedit="http://builds.enginehub.org/job/worldedit/10182/download/worldedit-forge-mc1.12.1-6.1.9-SNAPSHOT-dist.jar"
-wr-cbe="http://chickenbones.net/maven/codechicken/WR-CBE/1.12.2-2.3.1.30/WR-CBE-1.12.2-2.3.1.30-universal.jar"
+wrcbe="http://chickenbones.net/maven/codechicken/WR-CBE/1.12.2-2.3.1.30/WR-CBE-1.12.2-2.3.1.30-universal.jar"
 zerocore="https://minecraft.curseforge.com/projects/zerocore/files/2568531/download"
 
-/mods -u -i
+/mods -u -w
 mcef="https://montoyo.net/wd3/?modid=mcef#" -m:"Download mod version 0.9 for 1.12.2"
 musiccraft="http://casualient.com/3156186/musiccraft323mediafire" -m:"Click SKIP AD in top right corner. Download to the Telkit mods directory."
 webdisplays="https://montoyo.net/wd3/?modid=webdisplays" -m:"Download mod version 1.0 for 1.12.2"

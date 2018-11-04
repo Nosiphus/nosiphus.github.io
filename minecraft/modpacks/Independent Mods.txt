@@ -1,0 +1,12 @@
+Hello, nCraft users!
+Do you have a mod you like to use alongside the rest of the modpack, but that mod isn't in the pack, so it gets deleted when updates roll around?
+Well, we have a solution, called the "usermods" folder.
+
+The usermods folder is specifically meant for mods that the user wants to run in the pack that the modpack doesn't have in it.
+For example, let's say you want to run Dynamic Lights or OptiFine in a modpack that doesn't have those mods installed.
+
+You can download those mods by yourself, put them into the usermods folder, and the pack will run them when launched.
+The modpack, whenever updates come around, will not change the contents of the usermods folder, meaning you won't have to reinstall those mods when the pack updates.
+
+However, there are two drawbacks. You'll have to keep track of these mods being updated by yourself.
+It also means that if the modpack authors add that mod to their pack, nCraft won't auto-remove that mod from your usermods folder.

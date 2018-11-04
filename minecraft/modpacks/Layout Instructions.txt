@@ -24,6 +24,7 @@ Directory layouts are as follows:
 Folders should be in alphabetical order, and in the order of client, server, and then universal, like this. Subfolders take priority.
 /
 /bin
+/mods/1.12.2 -c
 /mods/1.12.2 -u
 /mods -c
 /mods -c -w

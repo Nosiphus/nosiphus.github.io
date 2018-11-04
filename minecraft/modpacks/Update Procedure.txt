@@ -2,9 +2,10 @@ When a modpack on nCraft is updated, here's how the launcher will detect and ins
 First, when the launcher starts, it will look at its downloaded update information and then check the site's modpack directory for newer text files.
 If it finds some, it will notify the user of impending updates.
 When an update is installed, first it will ask the user if they want to update or play the version they have.
-If they choose to update, the pack first looks at the current installation's version, and then will compare that version's textfile with the update's.
+If they choose to update, the pack then looks at the current installation's version, and then will compare that version's textfile with the update's.
 If the launcher finds that the newer pack contains a line that has changed, i.e. the link has changed to download a newer mod, it will delete the current mod and install the new one.
 If the launcher finds that a link the old pack had is missing from the update, it will remove the old mod, unless it finds that mod in the usermods folder.
 If the launcher finds a new link that isn't in the old version's update file, it will install that new mod.
 
-nCraft's update method will be the single most efficient mod update system ever utilized, as it will not force-remove an unchanged mod.
+nCraft's update method will be the single most efficient mod update system ever utilized, as it will not remove an unchanged mod.
+This will save both time and Internet bandwidth.

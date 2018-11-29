@@ -9,6 +9,7 @@ author="Nosiphus" - This is where you put you or your organization's name, and w
 minecraft="1.12.2" - This indicates the version of Minecraft that your pack is designed for.
 version="6.6.0" - This is where you place the version identifier. The file should also be named like this, i.e. "6.6.0.txt".
 date="10.20.2018" - This is where you place the date the update was released. It is in US format of Month-Date-Year.
+requiredram="6144" - You can specify a minimum amount of RAM, in megabytes, the pack needs to run.
 
 Next, you will place the directory structure and any special commands for each directory.
 -c indicates client-only mods.

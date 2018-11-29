@@ -4,6 +4,7 @@ author="Nosiphus"
 minecraft="1.12.2"
 version="6.6.0"
 date="10.20.2018"
+requiredram="6144"
 
 / -z
 flansmod="https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download"

@@ -26,12 +26,21 @@
 <div>
   <p><strong>Welcome to Nosiphus!</strong><br>
   <a href="https://twitter.com/nosiphus?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @nosiphus</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-  <p>Recent as of Sunday, December 2, 2018 - Six years ago today, on Sunday, December 2, 2012, my eleven-year-old self wrote out a tiny FrontPage experiment with a little help from a copy of <em>HTML4 for Dummies</em>. To commemorate the fact that the 2019 calendar follows the 2013 calendar, and as such December 2018 follows that of December 2012, I will be creating Spotify playlists of my personal soundtrack for the First Golden Age of Nosiphus, and to recall the unstoppable progress of my favorite year, 2013, I will work on digitizing old Nosiphus documentation, and I am considering having a livestream be the first appearance of the 2013 Nosiphus notebook on the Internet.</p>
-  <p>I've created a Spotify playlist for the soundtrack of 2013, which you can access below. </p>
-  <p>In the meantime, here's some stuff from the First Golden Age of Nosiphus!<br><a href="https://archives.nosiphus.com/code-experiment/windowsxprules1.com.htm">windowsxprules1 Code Experiment (December 2, 2012) - What started it all!</a><br><a href="https://archives.nosiphus.com/code-experiment/v3/windowsxprules1.com.htm">windowsxpules1 Code Experiment (December 3, 2012) - Slight edit the next day</a><br><a href="https://archives.nosiphus.com/code-experiment/reconstruction/windowsxprules1.html">windowsxprules1 Code Experiment - HTML5 Rewrite (December 2, 2018)</a></p>
+    <p>Recent as of Saturday, December 8, 2018 - There have been some changes in the way we store modpack information, and this is to bring in standards equipment with the future nCraft modpack system. Let us elaborate.</p>
+    <p>Once the launcher is available, we will allow third parties to utilize our textfile system for their own modpacks. The launcher will be coded to detect the same file structure, with the variable being the modpack's ID, which will be the name of the folder. Presently, a very basic version of this exists, and this is what the code looks like:</p>
+    
     <p>
-      <iframe src="https://open.spotify.com/embed/user/seancrain/playlist/0h9BsVQVvdyRMzK8Bng59T" width="90%" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        String modpack;<br>
+        modpack = JOptionPane.showInputDialog(frame,"What modpack will you be installing?");<br>
+        <br>
+        String versionNumber;<br>
+        versionNumber = JOptionPane.showInputDialog(frame, "Enter version number:");<br>
+        <br>
+        String fromFile = "https://www.nosiphus.com/minecraft/modpacks/" + modpack + "/updates/" + versionNumber + ".txt";<br>
+        String toFile = directory + versionNumber + ".txt";
     </p>
+    
+    <p>This small excerpt from the code gives the user the ability to set the modpack ID by typing the ID, then the version number, and the launcher downloads the txt file in question. Eventually, the code will read through the text file and download the appropriate files instead of the txt file itself.</p>
 
 </div>
 <div class="row">

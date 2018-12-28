@@ -111,7 +111,7 @@ vanillafix=https://minecraft.curseforge.com/projects/vanillafix/files/2574249/do
 wanionlib=https://minecraft.curseforge.com/projects/wanionlib/files/2534271/download
 worldedit=http://builds.enginehub.org/job/worldedit/10182/download/worldedit-forge-mc1.12.1-6.1.9-SNAPSHOT-dist.jar
 wrcbe=http://chickenbones.net/maven/codechicken/WR-CBE/1.12.2-2.3.1.30/WR-CBE-1.12.2-2.3.1.30-universal.jar
-zerocore=https://minecraft.curseforge.com/projects/zerocore/files/2568531/download
+zerocore=https://media.forgecdn.net/files/2568/531/zerocore-1.12-0.1.2.2.jar
 
 /mods -u -w
 mcef=https://montoyo.net/wd3/?modid=mcef# -m:"Download mod version 0.9 for 1.12.2"

@@ -1,0 +1,17 @@
+id=test
+name=nCraft Development Test
+minecraft=1.12.2
+version=1.0.0
+date=12.31.2018
+requiredram=4096
+
+/flansmod.zip=n:https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download
+
+/bin/modpack.jar=n:http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2796/forge-1.12.2-14.23.5.2796-universal.jar
+
+/mods/1.12.2/baubles.jar=n:https://minecraft.curseforge.com/projects/baubles/files/2518667/download
+
+/mods/appliedenergistics2.jar=n:https://minecraft.curseforge.com/projects/applied-energistics-2/files/2652453/download
+/mods/buildcraft.jar=n:https://mod-buildcraft.com/releases/BuildCraft/7.99.20/buildcraft-all-7.99.20.jar
+
+/mods/optifine.jar=w:https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E3.jar

@@ -1,48 +1,28 @@
 Hello there, nCraft modpack authors! This document was created to help explain the layout of our modpack download system.
-Now, presently, the launcher does not exist, but setting this system up on the Nosiphus website will be critical for it to function.
+Presently, the launcher is under construction, but it is able to download files now. Here's how to lay your update files out.
 
-So, each file will have a modpack header, as demonstrated here:
+id=telkit - This is the spaceless, all-lowercase ID of your modpack. Spaces and characters are to be represented by dashes, like this: "telkit-classic".
+name=Telkit - This is the proper name for the pack, including capitalization, spaces, and non-alphanumerical characters.
+author=Nosiphus - This is where you put you or your organization's name, and with proper formatting.
+minecraft=1.12.2 - This indicates the version of Minecraft that your pack is designed for.
+version=6.6.0 - This is where you place the version identifier. The file should also be named like this, i.e. "6.6.0.txt".
+date=10.20.2018 - This is where you place the date the update was released. It is in US format of Month-Date-Year.
+requiredram=6144 - You can specify a minimum amount of RAM, in megabytes, the pack needs to run.
 
-id="telkit" - This is the spaceless, all-lowercase ID of your modpack. Spaces and characters are to be represented by dashes, like this: "telkit-classic".
-name="Telkit" - This is the proper name for the pack, including capitalization, spaces, and non-alphanumerical characters.
-author="Nosiphus" - This is where you put you or your organization's name, and with proper formatting.
-minecraft="1.12.2" - This indicates the version of Minecraft that your pack is designed for.
-version="6.6.0" - This is where you place the version identifier. The file should also be named like this, i.e. "6.6.0.txt".
-date="10.20.2018" - This is where you place the date the update was released. It is in US format of Month-Date-Year.
-requiredram="6144" - You can specify a minimum amount of RAM, in megabytes, the pack needs to run.
+Next, you will place the directory structure. While not required, we recommend you store the base folder first, then prioritize by subfolder.
 
-Next, you will place the directory structure and any special commands for each directory.
--c indicates client-only mods.
--s indicates server-only mods.
--u indicates universal mods.
-Sometimes, however, mods cannot be directly downloaded from their servers, either due to webpage authorization or the download not being the JAR on its own.
--w will direct the launcher to open your browser to download the mod.
--m allows you to add specific instructions on what to do. This is useful when it comes to adf.ly confusing non-tech savvy users.
--z indicates the download is a zip file with multiple directories. This is noted in modern versions of Flan's Mod.
--r will tell the launcher to rename a file, notably renaming the Forge download to modpack.jar.
+An important thing to note is the prefix before the http header, for example, n: or w:. These have specific functions.
 
-Directory layouts are as follows:
-Folders should be in alphabetical order, and in the order of client, server, and then universal, like this. Subfolders take priority.
-/
-/bin
-/mods/1.12.2 -c
-/mods/1.12.2 -u
-/mods -c
-/mods -c -w
-/mods -s
-/mods -u
-/mods -u -w
+n: tells nCraft that this link is to be treated like a normal link, and the launcher should directly download from the link.
+w: tells nCraft that this link is not a direct download link, and will open the user's browser to download the mod in question.
 
-/ -u -z -> This tells the launcher that the next few mods are universal mods that need to be extracted in the root folder.
-flansmod="https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download"
-The mod has a short ID in front. This format should not contain spaces unless it's for modules, for example:
-opencomputers, not open-computers
-projectred-world, not projectredworld or project-red-world
-After that, there is an equal sign, then a link inside quotation marks.
+/flansmod.zip=n:https://drive.google.com/uc?authuser=0&id=1dHmi_5Hu97Uk7WLOnIi-biQEP-z8wWvT&export=download
 
-/mods/1.12.2 -u -> This tells the pack that there is a specific subfolder where certain universal mods must go.
-chickenasm="http://chickenbones.net/maven/codechicken/ChickenASM/1.12-1.0.2.7/ChickenASM-1.12-1.0.2.7.jar"
+/bin/modpack.jar=n:http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2796/forge-1.12.2-14.23.5.2796-universal.jar
 
-/mods -c -w -> This tells the launcher that there are client-side mods that have to be downloaded from a webpage, like so:
-optifine="https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E2.jar" -m="Click Download OptiFine_1.12.2...., then run the file, and extract to the Telkit mods directory."
-The -m tells the launcher to give the users instructions on how to download and install the mod.
+/mods/1.12.2/baubles.jar=n:https://minecraft.curseforge.com/projects/baubles/files/2518667/download
+
+/mods/appliedenergistics2.jar=n:https://minecraft.curseforge.com/projects/applied-energistics-2/files/2652453/download
+/mods/buildcraft.jar=n:https://mod-buildcraft.com/releases/BuildCraft/7.99.20/buildcraft-all-7.99.20.jar
+
+/mods/optifine.jar=w:https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E3.jar

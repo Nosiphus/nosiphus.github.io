@@ -1,0 +1,26 @@
+{
+    "id": "test",
+	"name": "nCraft Development Testing Pack",
+	"minecraft": "1.12.2",
+	"version": "1.0.1",
+	"date": "2019-02-08",
+	"ram": "4096",
+	
+	"bin": {
+		"modpack.jar": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2811/forge-1.12.2-14.23.5.2811-universal.jar"
+	},
+	
+    "flan": {
+        "Apocalypse-Content.Pack-1.12.2-5.6.jar": "https://github.com/FlansMods/FlansMod/releases/download/v5.6-beta.3/Apocalypse-Content.Pack-1.12.2-5.6.jar",
+		"Mecha.Parts-Content.Pack-1.12.2-5.6.jar": "https://github.com/FlansMods/FlansMod/releases/download/v5.6-beta.3/Mecha.Parts-Content.Pack-1.12.2-5.6.jar"
+    },
+	
+	"mods": {
+		"appliedenergistics2-rv6-stable-6.jar": "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2652453/download",
+		"buildcraft-all-7.99.21.jar": "https://mod-buildcraft.com/releases/BuildCraft/7.99.21/buildcraft-all-7.99.21.jar"
+	}
+	
+	"specialcases": {
+		"OptiFine_1.12.2_HD_U_E3.jar": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E3.jar"
+	}
+}

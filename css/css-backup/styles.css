@@ -1,7 +1,7 @@
 @import url("/css/fontstyles.css");
 
 body {
-background-color: #26272B;
+background-color: #001E66;
 }
 
 *{
@@ -9,26 +9,26 @@ background-color: #26272B;
 }
 
 h1 {
-	color: #DCDDDE;
+	color: #008CFF;
 	text-align: center;
 	font-size: 36px;
 	line-height:44px;
 }
 
 p {
-	color: #DCDDDE;
+	color: #008CFF;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 details {
-	color: #DCDDDE;
+	color: #008CFF;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 a {
-	color: #238ACF;
+	color: #003CFF;
 	text-decoration: none;
 }
 .tooltip {

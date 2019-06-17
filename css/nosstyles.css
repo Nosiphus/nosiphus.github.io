@@ -12,3 +12,8 @@
 	display: table;
 	clear: both;
 }
+
+img.information {
+	height: 35px;
+	vertical-align: middle;
+}

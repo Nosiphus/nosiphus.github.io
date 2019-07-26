@@ -1,16 +1,14 @@
 @import url("/css/styles.css");
 
-.column {
-	float: left;
-	width: 33.33%;
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-/* Clear floats after the columns */
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+.flex-container > div {
+	width: 50%;
+	margin: 0.5%;
 }
 
 img.information {

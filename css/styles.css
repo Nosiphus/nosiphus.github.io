@@ -54,7 +54,3 @@ a {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
-.twitter-timeline {
-    width: 100vw !important;
-}

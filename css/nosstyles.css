@@ -17,3 +17,7 @@ img.information {
 	height: 35px;
 	vertical-align: middle;
 }
+
+.twitter-timeline {
+    width: 100vw !important;
+}

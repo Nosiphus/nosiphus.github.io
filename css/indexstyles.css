@@ -10,3 +10,7 @@
 	display: table;
 	clear: both;
 }
+
+.twitter-timeline {
+    width: 95vw !important;
+}

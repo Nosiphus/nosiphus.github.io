@@ -21,20 +21,24 @@ p {
 	font-size: 20px;
 	line-height:28px;
 }
+
 details {
 	color: #A8DCFF;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
+
 a {
 	color: #16B2F2;
 	text-decoration: none;
 }
+
 .tooltip {
     position: relative;
     display: inline-block;
 }
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -46,6 +50,11 @@ a {
     position: absolute;
     z-index: 1;
 }
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.twitter-timeline {
+    width: 100vw !important;
 }

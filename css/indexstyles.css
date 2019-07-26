@@ -1,16 +1,12 @@
 @import url("/css/styles.css");
 
-.column {
-	float: left;
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flex-container > div {
 	width: 50%;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.twitter-timeline {
-    width: 95vw !important;
+	margin: 1.5%;
 }

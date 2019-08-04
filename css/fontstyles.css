@@ -1,3 +1,17 @@
+/* coming-soon-regular - latin */
+@font-face {
+  font-family: 'Coming Soon';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/coming-soon/coming-soon-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Coming Soon Regular'), local('ComingSoon-Regular'),
+       url('/fonts/coming-soon/coming-soon-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/coming-soon/coming-soon-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/coming-soon/coming-soon-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/coming-soon/coming-soon-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/coming-soon/coming-soon-v11-latin-regular.svg#ComingSoon') format('svg'); /* Legacy iOS */
+}
+
 /* quicksand-300 - latin */
 @font-face {
   font-family: 'Quicksand';

@@ -34,6 +34,11 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;

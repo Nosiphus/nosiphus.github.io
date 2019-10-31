@@ -1,0 +1,261 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2019-10-30 21:41:18 CDT
+Description: Unexpected error
+
+java.util.ConcurrentModificationException
+    at java.util.ArrayList.sort(Unknown Source)
+    at java.util.Collections.sort(Unknown Source)
+    at com.mrcrayfish.vehicle.block.BlockVehicleCrate.getSubBlocks(BlockVehicleCrate.java:216)
+    at com.raoulvdberge.refinedstorage.item.ItemCover.getSubItems(ItemCover.java:116)
+    at net.minecraft.client.gui.inventory.GuiContainerCreative.updateCreativeSearch(GuiContainerCreative.java:390)
+    at net.minecraft.client.gui.inventory.GuiContainerCreative.setCurrentCreativeTab(GuiContainerCreative.java:574)
+    at net.minecraft.client.gui.inventory.GuiContainerCreative.initGui(GuiContainerCreative.java:289)
+    at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:478)
+    at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018)
+    at net.minecraft.client.gui.inventory.GuiInventory.initGui(SourceFile:46)
+    at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:478)
+    at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018)
+    at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2175)
+    at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2020)
+    at net.minecraft.client.Minecraft.runTick(Minecraft.java:1808)
+    at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:3942)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Affected level --
+  Level name: MpServer
+  All players: 4 total; [GCEntityClientPlayerMP['windowsxprules1'/18216093, l='MpServer', x=5890.03, y=67.00, z=780.01], GCEntityOtherPlayerMP['WyattJack22'/15249373, l='MpServer', x=5900.48, y=158.36, z=713.03], GCEntityOtherPlayerMP['JasonJack22'/17203599, l='MpServer', x=5761.67, y=64.20, z=787.98], GCEntityOtherPlayerMP['NateJack22'/16927935, l='MpServer', x=5752.62, y=67.15, z=807.51]]
+  Chunk stats: MultiplayerChunkCache: 441, 441
+  Level seed: 0
+  Level generator: ID 06 - BIOMESOP, ver 0. Features enabled: false
+  Level generator options: 
+  Level spawn location: World: (5743,67,757), Chunk: (at 15,4,5 in 358,47; contains blocks 5728,0,752 to 5743,255,767), Region: (11,1; contains chunks 352,32 to 383,63, blocks 5632,0,512 to 6143,255,1023)
+  Level time: 30029665 game time, 9345 day time
+  Level dimension: 0
+  Level storage version: 0x00000 - Unknown?
+  Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+  Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+  Forced entities: 37 total; [EntityHat['unknown'/29184, l='MpServer', x=5890.03, y=67.00, z=780.01], EntityMoped['Moped'/18241303, l='MpServer', x=5752.62, y=67.00, z=807.51], EntityHat['unknown'/29187, l='MpServer', x=5900.48, y=158.36, z=713.03], GCEntityOtherPlayerMP['JasonJack22'/17203599, l='MpServer', x=5761.67, y=64.20, z=787.98], EntityBat['Bat'/18236764, l='MpServer', x=5855.60, y=48.03, z=736.97], GCEntityOtherPlayerMP['JasonJack22'/17203599, l='MpServer', x=5761.67, y=64.20, z=787.98], EntityLatchedRenderer['unknown'/29716, l='MpServer', x=5761.67, y=64.20, z=787.98], GCEntityClientPlayerMP['windowsxprules1'/18216093, l='MpServer', x=5890.03, y=67.00, z=780.01], EntityHat['unknown'/29717, l='MpServer', x=5761.67, y=64.20, z=787.98], EntityLatchedRenderer['unknown'/29142, l='MpServer', x=8.50, y=65.00, z=8.50], GCEntityOtherPlayerMP['NateJack22'/16927935, l='MpServer', x=5751.39, y=67.00, z=814.56], EntityHat['unknown'/29145, l='MpServer', x=8.50, y=65.00, z=8.50], EntityItem['item.item.leather'/18224975, l='MpServer', x=5857.79, y=14.00, z=789.94], EntityBat['Bat'/18156682, l='MpServer', x=5878.60, y=43.10, z=755.40], EntityBat['Bat'/18238580, l='MpServer', x=5945.25, y=31.04, z=703.25], EntityBat['Bat'/18223474, l='MpServer', x=5829.52, y=56.78, z=713.95], EntityBat['Bat'/18238578, l='MpServer', x=5872.25, y=37.10, z=740.25], EntityItem['item.item.leather'/18205936, l='MpServer', x=5877.40, y=23.00, z=841.12], GCEntityOtherPlayerMP['JasonJack22'/17203599, l='MpServer', x=5751.44, y=67.00, z=817.65], EntityBat['Bat'/18225008, l='MpServer', x=5834.59, y=57.02, z=719.41], GCEntityOtherPlayerMP['NateJack22'/16927935, l='MpServer', x=5752.62, y=67.15, z=807.51], EntityLatchedRenderer['unknown'/29807, l='MpServer', x=5752.62, y=67.15, z=807.51], EntityHat['unknown'/29808, l='MpServer', x=5752.62, y=67.15, z=807.51], EntityBat['Bat'/18209191, l='MpServer', x=5876.92, y=37.05, z=737.81], GCEntityOtherPlayerMP['WyattJack22'/15249373, l='MpServer', x=5900.48, y=158.36, z=713.03], GCEntityOtherPlayerMP['WyattJack22'/15249373, l='MpServer', x=5900.48, y=158.36, z=713.03], EntityLatchedRenderer['unknown'/29174, l='MpServer', x=5900.48, y=158.36, z=713.03], EntityHat['unknown'/29302, l='MpServer', x=5834.59, y=57.02, z=719.41], EntityBat['Bat'/18188333, l='MpServer', x=5919.88, y=44.05, z=726.15], EntityBat['Bat'/18188332, l='MpServer', x=5918.16, y=44.53, z=727.50], EntityBat['Bat'/18225007, l='MpServer', x=5825.79, y=57.10, z=710.65], EntityBat['Bat'/18209193, l='MpServer', x=5862.38, y=34.06, z=740.48], EntityBat['Bat'/18209192, l='MpServer', x=5864.14, y=33.52, z=739.46], GCEntityOtherPlayerMP['NateJack22'/16927935, l='MpServer', x=5752.62, y=67.15, z=807.51], EntityBat['Bat'/18188331, l='MpServer', x=5918.62, y=44.03, z=726.13], EntityBat['Bat'/18222696, l='MpServer', x=5863.45, y=38.10, z=764.45], EntityBat['Bat'/18209194, l='MpServer', x=5865.46, y=35.10, z=740.75]]
+  Retry entities: 2 total; [EntityLatchedRenderer['unknown'/29142, l='MpServer', x=8.50, y=65.00, z=8.50], EntityHat['unknown'/29145, l='MpServer', x=8.50, y=65.00, z=8.50]]
+  Server brand: fml,forge
+  Server type: Non-integrated multiplayer server
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_231, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 4555735232 bytes (4344 MB) / 8589934592 bytes (8192 MB) up to 8589934592 bytes (8192 MB)
+  JVM Flags: 5 total; -Xms8192m -Xmx8192m -XX:+UseG1GC -XX:MaxGCPauseMillis=4 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F4 134 mods loaded, 134 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                        | Version                     | Source                                            | Signature                                |
+       |:------ |:------------------------- |:--------------------------- |:------------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft                 | 1.12.2                      | minecraft.jar                                     | None                                     |
+       | LCHIJA | mcp                       | 9.42                        | minecraft.jar                                     | None                                     |
+       | LCHIJA | FML                       | 8.0.99.99                   | modpack.jar                                       | None                                     |
+       | LCHIJA | forge                     | 14.23.5.2847                | modpack.jar                                       | None                                     |
+       | LCHIJA | ColorUtility              | 1.0.4                       | minecraft.jar                                     | None                                     |
+       | LCHIJA | creativecoredummy         | 1.0.0                       | minecraft.jar                                     | None                                     |
+       | LCHIJA | micdoodlecore             |                             | minecraft.jar                                     | None                                     |
+       | LCHIJA | smoothfontcore            | mc1.12.2-2.1.1              | minecraft.jar                                     | None                                     |
+       | LCHIJA | openmodscore              | 0.12.2                      | minecraft.jar                                     | None                                     |
+       | LCHIJA | foamfixcore               | 7.7.4                       | minecraft.jar                                     | None                                     |
+       | LCHIJA | obfuscate                 | 0.2.6                       | minecraft.jar                                     | None                                     |
+       | LCHIJA | moresoundconfigcore       | 1.0.0                       | minecraft.jar                                     | None                                     |
+       | LCHIJA | randompatches             | 1.12.2-1.19.1.1             | randompatches-1.12.2-1.19.1.1.jar                 | None                                     |
+       | LCHIJA | smoothfont                | mc1.12.2-2.1.1              | SmoothFont-mc1.12.2-2.1.1.jar                     | None                                     |
+       | LCHIJA | baubles                   | 1.5.2                       | Baubles-1.12-1.5.2.jar                            | None                                     |
+       | LCHIJA | biomesoplenty             | 7.0.1.2441                  | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar     | None                                     |
+       | LCHIJA | buildcraftlib             | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftcore            | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftbuilders        | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcrafttransport       | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftsilicon         | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftenergy          | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | ic2                       | 2.8.187-ex112               | industrialcraft-2-2.8.187-ex112.jar               | de041f9f6187debbc77034a344134053277aa3b0 |
+       | LCHIJA | jei                       | 4.15.0.291                  | jei_1.12.2-4.15.0.291.jar                         | None                                     |
+       | LCHIJA | forestry                  | 5.8.2.408                   | forestry_1.12.2-5.8.2.408.jar                     | None                                     |
+       | LCHIJA | buildcraftcompat          | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftfactory         | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | buildcraftrobotics        | 7.99.24.3                   | buildcraft-all-7.99.24.3.jar                      | None                                     |
+       | LCHIJA | carpentersblocks          | 3.4.0-poc.6                 | Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar   | None                                     |
+       | LCHIJA | cctweaked                 | 1.85.0                      | cc-tweaked-1.12.2-1.85.0.jar                      | None                                     |
+       | LCHIJA | computercraft             | 1.85.0                      | cc-tweaked-1.12.2-1.85.0.jar                      | None                                     |
+       | LCHIJA | cdm                       | 0.4.1                       | cdm-0.4.1-mc1.12.2.jar                            | None                                     |
+       | LCHIJA | cfm                       | 6.3.0                       | cfm-6.3.0-mc1.12.2.jar                            | None                                     |
+       | LCHIJA | cgm                       | 0.15.2                      | cgm-0.15.2-mc1.12.2.jar                           | None                                     |
+       | LCHIJA | clumps                    | 3.1.2                       | Clumps-3.1.2.jar                                  | None                                     |
+       | LCHIJA | codechickenlib            | 3.2.3.358                   | CodeChickenLib-1.12.2-3.2.3.358-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | redstoneflux              | 2.1.0                       | RedstoneFlux-1.12-2.1.0.7-universal.jar           | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | cofhcore                  | 4.6.3                       | CoFHCore-1.12.2-4.6.3.27-universal.jar            | None                                     |
+       | LCHIJA | cofhworld                 | 1.3.1                       | CoFHWorld-1.12.2-1.3.1.7-universal.jar            | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | compactsolars             | 1.12.2-5.0.18.341           | CompactSolars-1.12.2-5.0.18.341-universal.jar     | None                                     |
+       | LCHIJA | eleccore                  | 1.9.452                     | ElecCore-1.12.2-1.9.452.jar                       | None                                     |
+       | LCHIJA | craftingtableiv           | 1.12.2-1.5.116              | CraftingTableIV-1.12.2-1.5.116.jar                | None                                     |
+       | LCHIJA | opframe                   | 1.4.0                       | OnlinePicFrame_v1.4.31_mc1.12.2.jar               | None                                     |
+       | LCHIJA | creativecore              | 1.9.9                       | CreativeCore_v1.9.70_mc1.12.2.jar                 | None                                     |
+       | LCHIJA | ctm                       | MC1.12.2-1.0.0.29           | CTM-MC1.12.2-1.0.0.29.jar                         | None                                     |
+       | LCHIJA | ptrmodellib               | 1.0.4                       | PTRLib-1.0.4.jar                                  | None                                     |
+       | LCHIJA | props                     | 2.6.3                       | Decocraft-2.6.3_1.12.2.jar                        | None                                     |
+       | LCHIJA | journeymap                | 1.12.2-5.5.5                | journeymap-1.12.2-5.5.5.jar                       | None                                     |
+       | LCHIJA | defaultoptions            | 9.2.8                       | DefaultOptions_1.12.2-9.2.8.jar                   | None                                     |
+       | LCHIJA | dimdoors                  | 1.12.2-3.0.9+306            | DimensionalDoors-1.12.2-3.0.9-306.jar             | None                                     |
+       | LCHIJA | discocraft                | 2.0.2-10.26.2019            | discocraft-2.0.2-10.26.2019.jar                   | None                                     |
+       | LCHIJA | enderstorage              | 2.4.6.137                   | EnderStorage-1.12.2-2.4.6.137-universal.jar       | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | extrabiomesxl             | @version@                   | ExtrabiomesXL-4.0.0.jar                           | None                                     |
+       | LCHIJA | extrautils2               | 1.0                         | extrautils2-1.12-1.9.9.jar                        | None                                     |
+       | LCHIJA | zerocore                  | 1.12.2-0.1.2.8              | zerocore-1.12.2-0.1.2.8.jar                       | None                                     |
+       | LCHIJA | bigreactors               | 1.12.2-0.4.5.67             | ExtremeReactors-1.12.2-0.4.5.67.jar               | None                                     |
+       | LCHIJA | foamfix                   | 0.10.8-1.12.2               | foamfix-0.10.8-1.12.2.jar                         | None                                     |
+       | LCHIJA | forgemultipartcbe         | 2.6.2.83                    | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | microblockcbe             | 2.6.2.83                    | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | None                                     |
+       | LCHIJA | minecraftmultipartcbe     | 2.6.2.83                    | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | None                                     |
+       | LCHIJA | fpsreducer                | mc1.12.2-1.12.4             | FpsReducer-mc1.12.2-1.12.4.jar                    | None                                     |
+       | LCHIJA | fw                        | 1.6.0                       | FullscreenWindowed-1.12-1.6.0-1.jar               | None                                     |
+       | LCHIJA | galacticraftcore          | 4.0.2.238                   | GalacticraftCore-1.12.2-4.0.2.238.jar             | None                                     |
+       | LCHIJA | galacticraftplanets       | 4.0.2.238                   | Galacticraft-Planets-1.12.2-4.0.2.238.jar         | None                                     |
+       | LCHIJA | ichunutil                 | 7.2.2                       | iChunUtil-1.12.2-7.2.2.jar                        | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | hats                      | 7.1.0                       | Hats-1.12.2-7.1.0.jar                             | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | hatstand                  | 7.1.0                       | HatStand-1.12.2-7.1.0.jar                         | None                                     |
+       | LCHIJA | lucraftcore               | 1.12.2-2.4.8                | LucraftCore-1.12.2-2.4.8.jar                      | None                                     |
+       | LCHIJA | heroesexpansion           | 1.12.2-1.3.5                | HeroesExpansion-1.12.2-1.3.5.jar                  | None                                     |
+       | LCHIJA | waila                     | 1.8.26                      | Hwyla-1.8.26-B41_1.12.2.jar                       | None                                     |
+       | LCHIJA | icbmclassic               | 1.12.2-3.3.0.65             | ICBM-classic-1.12.2-3.3.0b65.jar                  | None                                     |
+       | LCHIJA | ironchest                 | 1.12.2-7.0.59.842           | ironchest-1.12.2-7.0.59.842.jar                   | None                                     |
+       | LCHIJA | jeid                      | 1.0.3-48                    | JustEnoughIDs-1.0.3-48.jar                        | None                                     |
+       | LCHIJA | malisiscore               | 1.12.2-6.5.1-SNAPSHOT       | malisiscore-1.12.2-6.5.1.jar                      | None                                     |
+       | LCHIJA | malisisdoors              | 1.12.2-7.3.0                | malisisdoors-1.12.2-7.3.0.jar                     | None                                     |
+       | LCHIJA | mca                       | 6.0.1                       | MCA-1.12.2-6.0.1-universal.jar                    | None                                     |
+       | LCHIJA | mcef                      | 1.11                        | mcef-1.12.2-1.11.jar                              | None                                     |
+       | LCHIJA | mekanism                  | 1.12.2-9.8.2.389            | Mekanism-1.12.2-9.8.2.389.jar                     | None                                     |
+       | LCHIJA | mekanismgenerators        | 1.12.2-9.8.2.389            | MekanismGenerators-1.12.2-9.8.2.389.jar           | None                                     |
+       | LCHIJA | mekanismtools             | 1.12.2-9.8.2.389            | MekanismTools-1.12.2-9.8.2.389.jar                | None                                     |
+       | LCHIJA | moreplayermodels          | 1.12.2                      | MorePlayerModels_1.12.2-(29Sep19).jar             | None                                     |
+       | LCHIJA | morph                     | 7.1.3                       | Morph-1.12.2-7.1.3.jar                            | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | mrtjpcore                 | 2.1.4.43                    | MrTJPCore-1.12.2-2.1.4.43-universal.jar           | None                                     |
+       | LCHIJA | musiccraft                | 3.2.3                       | MusicCraft-3.2.3.jar                              | None                                     |
+       | LCHIJA | mycommands                | 1.12.2-01                   | MyCommands-1.12.2-01.jar                          | None                                     |
+       | LCHIJA | notemastahp               | 1.0.3                       | NoTemaStahp-1.12.2-1.0.3.jar                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | nei                       | 2.4.3                       | NotEnoughItems-1.12.2-2.4.3.245-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | nuclearphysics            | 0.1.40                      | nuclearphysics-1.12.2-0.1.40.jar                  | None                                     |
+       | LCHIJA | openmods                  | 0.12.2                      | OpenModsLib-1.12.2-0.12.2-snapshot-524.jar        | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | openblocks                | 1.8.1                       | OpenBlocks-1.12.2-1.8.1-snapshot-845.jar          | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | projecte                  | 1.12.2-PE1.4.1              | ProjectE-1.12.2-PE1.4.1.jar                       | None                                     |
+       | LCHIJA | projectred-core           | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-Base.jar              | None                                     |
+       | LCHIJA | projectred-compat         | 1.0                         | ProjectRed-1.12.2-4.9.4.120-compat.jar            | None                                     |
+       | LCHIJA | projectred-integration    | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-integration.jar       | None                                     |
+       | LCHIJA | projectred-transmission   | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-integration.jar       | None                                     |
+       | LCHIJA | projectred-fabrication    | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-fabrication.jar       | None                                     |
+       | LCHIJA | projectred-illumination   | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-lighting.jar          | None                                     |
+       | LCHIJA | projectred-expansion      | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+       | LCHIJA | projectred-relocation     | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+       | LCHIJA | projectred-transportation | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+       | LCHIJA | projectred-exploration    | 4.9.4.120                   | ProjectRed-1.12.2-4.9.4.120-world.jar             | None                                     |
+       | LCHIJA | randomtweaks              | 1.12.2-2.7.1.0              | randomtweaks-1.12.2-2.7.1.0.jar                   | 20d08fb3fe9c268a63a75d337fb507464c8aaccd |
+       | LCHIJA | refinedstorage            | 1.6.15                      | refinedstorage-1.6.15.jar                         | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+       | LCHIJA | sgcraft                   | 1.13.2                      | SGCraft-2.0.2.jar                                 | None                                     |
+       | LCHIJA | thermalfoundation         | 2.6.3                       | ThermalFoundation-1.12.2-2.6.3.27-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | thermalexpansion          | 5.5.4                       | ThermalExpansion-1.12.2-5.5.4.43-universal.jar    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | thermaldynamics           | 2.5.5                       | ThermalDynamics-1.12.2-2.5.5.21-universal.jar     | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | simplyjetpacks            | 2.2.14.67                   | SimplyJetpacks2-1.12.2-2.2.14.67.jar              | None                                     |
+       | LCHIJA | soundphysics              | 1.0.8                       | Sound-Physics-1.12.2.jar                          | None                                     |
+       | LCHIJA | surge                     | 2.0.77                      | Surge-1.12.2-2.0.77.jar                           | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | sync                      | 7.1.0                       | Sync-1.12.2-7.1.0.jar                             | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | tesla                     | 1.0.63                      | Tesla-1.12.2-1.0.63.jar                           | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | texfix                    | 4.0                         | TexFix+V-1.12-4.0.jar                             | None                                     |
+       | LCHIJA | thaumcraft                | 6.1.BETA26                  | Thaumcraft-1.12.2-6.1.BETA26.jar                  | None                                     |
+       | LCHIJA | thermalcultivation        | 0.3.3                       | ThermalCultivation-1.12.2-0.3.3.12-universal.jar  | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | thermalinnovation         | 0.3.3                       | ThermalInnovation-1.12.2-0.3.3.12-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | tmel                      | 1.12.2-1.4.0.0              | tmel-1.12.2-1.4.0.0.jar                           | None                                     |
+       | LCHIJA | treechopper               | 1.2.4                       | TreeChopper-1.12.2-1.2.4.jar                      | None                                     |
+       | LCHIJA | valkyrienskies            | 1.0                         | ValkyrienSkies-1.12.2-1.0-510.jar                 | None                                     |
+       | LCHIJA | vs_world                  | 1.0                         | ValkyrienSkies-1.12.2-1.0-510.jar                 | None                                     |
+       | LCHIJA | vs_control                | 1.0                         | ValkyrienSkies-1.12.2-1.0-510.jar                 | None                                     |
+       | LCHIJA | vs_open_computers         | 1.0                         | ValkyrienSkies-1.12.2-1.0-510.jar                 | None                                     |
+       | LCHIJA | vbe                       | GRADLE:VERSION-GRADLE:BUILD | Vanilla+Builders+Extension-1.12.2-1.0.9.jar       | None                                     |
+       | LCHIJA | vanillafix                | 1.0.10-SNAPSHOT             | VanillaFix-1.0.10-99.jar                          | None                                     |
+       | LCHIJA | vehicle                   | 0.41.0                      | vehicle-0.41.0-mc1.12.2.jar                       | None                                     |
+       | LCHIJA | webdisplays               | 1.1                         | webdisplays-1.12.2-1.1.jar                        | None                                     |
+       | LCHIJA | worldedit                 | 6.1.10-SNAPSHOT             | worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar | None                                     |
+       | LCHIJA | wrcbe                     | 2.3.2                       | WR-CBE-1.12.2-2.3.2.33-universal.jar              | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | wtp                       | 1.12.1-1.4.0                | wtp-1.12.1-1.4.0.jar                              | None                                     |
+       | LCHIJA | yogmod                    | 1.0.2-10.19.2019            | YogMod-1.0.2-10.19.2019.jar                       | None                                     |
+       | LCHIJA | moresoundconfig           | 1.0.4                       | moresoundconfig-1.0.4.jar                         | 7904c4e13947c8a616c5f39b26bdeba796500722 |
+       | LCHIJA | phosphor-lighting         | 1.12.2-0.2.6                | phosphor-1.12.2-0.2.6+build50-universal.jar       | f0387d288626cc2d937daa504e74af570c52a2f1 |
+       | LCHIJA | reauth                    | 3.6.0                       | reauth-3.6.0.jar                                  | daba0ec4df71b6da841768c49fb873def208a1e3 |
+       | LCHIJA | eleccoreloader            | 1.9.452                     | ElecCore-1.12.2-1.9.452.jar                       | None                                     |
+  Loaded coremods (and transformers): MixinLoaderForge (ValkyrienSkies-1.12.2-1.0-510.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.8-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.0.29.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      CreativePatchingLoader (CreativeCore_v1.9.70_mc1.12.2.jar)
+                                        
+                                      ObfuscatePlugin (obfuscate-0.2.6-1.12.2.jar)
+                                        com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+                                      MoreSoundConfigCore (moresoundconfig-core-1.0.4.jar)
+                                        ichttt.mods.moresoundconfig.asm.MSCTransformer
+                                      MekanismCoremod (Mekanism-1.12.2-9.8.2.389.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      CorePlugin (SmoothFont-mc1.12.2-2.1.1.jar)
+                                        bre.smoothfont.asm.Transformer
+                                      LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.8.jar)
+                                        lucraft.mods.lucraftcore.core.LCTransformer
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2-snapshot-524.jar)
+                                        openmods.core.OpenModsClassTransformer
+                                      PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6+build50-universal.jar)
+                                        
+                                      JustEnoughIDs Extension Plugin (JustEnoughIDs-1.0.3-48.jar)
+                                        org.dimdev.jeid.JEIDTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      ShutdownPatcher (mcef-1.12.2-1.11-coremod.jar)
+                                        net.montoyo.mcef.coremod.ShutdownPatcher
+                                      MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+                                        
+                                      SurgeLoadingPlugin (Surge-1.12.2-2.0.77.jar)
+                                        
+                                      MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.238.jar)
+                                        micdoodle8.mods.miccore.MicdoodleTransformer
+                                      ColorUtilityCorePlugin (ColorUtility-universal-1.0.4.jar)
+                                        com.Axeryok.ColorUtility.ColorUtilityTransformer
+                                      CoreModLoader (Sound-Physics-1.12.2.jar)
+                                        com.sonicether.soundphysics.CoreModInjector
+                                      RandomPatches (randompatches-1.12.2-1.19.1.1.jar)
+                                        com.therandomlabs.randompatches.core.RPTransformer
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 441.08' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+  OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+  Suspected Mods: MrCrayfish's Vehicle Mod (vehicle), Refined Storage (refinedstorage)
+  Launched Version: 1.12.2-forge1.12.2-14.23.5.2847
+  LWJGL: 2.9.4
+  OpenGL: GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 441.08, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: PureBDcraft 128x MC112.zip, PureBDcraft More 3D Blocks MC112.zip, PureBDcraft More 3D Items MC112.zip, PureBDcraft Technology MC112.zip, PureBDcraft Newer Optifine Backport 128x MC112.zip, PureBDcraft Extra Optifine MC112.zip, Sphax_Telkit_128x.zip, Sphax_ClassicFont_128x.zip
+  Current Language: English (US)
+  Profiler Position: N/A (disabled)
+  CPU: 8x Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+  Client Crashes Since Restart: 4
+  Integrated Server Crashes Since Restart: 0

@@ -7,19 +7,11 @@
 }
 
 .flex-container > div {
-	width: 50%;
+	width: 12.5%;
 	margin: 0.5%;
 }
 
-.powerpoint {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.flex-container > div.powerpoint {
 	height: 840px;
 	width: 75%
-}
-
-img.information {
-	height: 35px;
-	vertical-align: middle;
 }

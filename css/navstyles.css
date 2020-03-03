@@ -66,7 +66,7 @@ li.dropdown {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	text-align: left;
+	text-align: center;
 }
 
 .dropdown-content a:hover {box-shadow:inset -7px -7px 17px #fff, 7px 7px 17px rgba(70,70,70,0.15);}

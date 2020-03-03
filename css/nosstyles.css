@@ -15,9 +15,9 @@
 	
 	margin: 0;
 	padding: 12px;
-	border: 1px solid #191E2D;
+	border: 1px solid #172139;
 	border-radius: 10px;
-	box-shadow: -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 	
 }
 
@@ -27,9 +27,9 @@
 	justify-content: center;
 	height: 840px;
 	width: 75%;
-	border: 1px solid #191E2D;
+	border: 1px solid #172139;
 	border-radius: 10px;
-	box-shadow: -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 }
 
 img.information {

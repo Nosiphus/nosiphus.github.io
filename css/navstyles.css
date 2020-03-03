@@ -14,11 +14,11 @@ li img {
 ul {
 	margin: 2.5%;
 	padding: 0.5%;
-	border: 1px solid #191E2D;
+	border: 1px solid #172139;
 	border-radius: 10px;
-	box-shadow: -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 	overflow: hidden;
-	background-color: #191E2D;
+	background-color: #172139;
 	
 }
 
@@ -29,18 +29,18 @@ li {
 
 li a, .dropbtn {
 	display: flex;
-	color: #191E2D;
+	color: #172139;
 	align-content: center;
 	padding: 8px;
 	text-decoration: none;
 	margin: 12px;
-	border: 1px solid #191E2D;
+	border: 1px solid #172139;
 	border-radius: 10px;
-	box-shadow: -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-	box-shadow:inset -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow:inset 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 }
 
 li.dropdown {
@@ -52,11 +52,11 @@ li.dropdown {
 	padding: 8px;
 	display: none;
 	position: absolute;
-	background-color: #191E2D;
+	background-color: #172139;
 	min-width: 160px;
-	border: 1px solid #191E2D;
+	border: 1px solid #172139;
 	border-radius: 10px;
-	box-shadow: -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
 	z-index: 1;
 }
 
@@ -69,7 +69,7 @@ li.dropdown {
 	text-align: center;
 }
 
-.dropdown-content a:hover {box-shadow:inset -7px -7px 17px #303A58, 7px 7px 17px rgba(70,70,70,0.15);}
+.dropdown-content a:hover {box-shadow:inset 7px 7px 17px #141c30, -7px -7px 17px #1a2642;}
 
 .dropdown:hover .dropdown-content {
 	display: block;

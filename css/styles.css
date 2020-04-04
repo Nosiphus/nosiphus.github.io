@@ -1,37 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext,vietnamese');
 
-body {
-background-color: #172139;
-}
-
-*{
-  font-family: 'Quicksand', sans-serif;
-}
-
-h1 {
-	color: #0052FF;
-	text-align: center;
-	font-size: 36px;
-	line-height: 44px;
-}
-
-p {
-	color: #0052FF;
-	text-align: center;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 32px;
-}
-
-span.red {
-	color: #FF0000;
-}
-
-details {
-	color: #0052FF;
-	text-align: center;
-	font-size: 24px;
-	line-height: 32px;
+* {
+	font-family: 'Quicksand', sans-serif;
 }
 
 a {
@@ -39,32 +9,314 @@ a {
 	text-decoration: none;
 }
 
+body {
+	background-color: #172139;
+}
+
+details {
+	color: #0052FF;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: 32px;
+}
+
+h1 {
+	color: #0052FF;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+}
+
+p {
+	color: #0052FF;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: center;
+}
+
+span.red {
+	color: #FF0000;
+}
+
 .container {
 	padding-left: 1%;
 	padding-right: 1%;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
+#mainlogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    
-    position: absolute;
-    z-index: 1;
+li img {
+    height: 35px;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+ul {
+	background-color: #172139;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
+	margin: 2.5%;
+	overflow: hidden;
+	padding: 0.5%;
 }
 
-.twitter-timeline {
-    width: 100vw !important;
+li {
+  	display: inline-block;
+	list-style: none;
+}
+
+li a, .dropbtn {
+	align-content: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
+	color: #172139;
+	display: flex;
+	margin: 12px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	box-shadow: inset 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	background-color: #172139;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
+	display: none;
+	margin: 12px;
+	min-width: 160px;
+	padding: 8px;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #0090FF;
+	display: block;
+	margin: 12px;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dropdown-content a:hover {
+	box-shadow: inset 7px 7px 17px #141c30, -7px -7px 17px #1a2642;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+div.flex-container {
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+div.flex-container > div {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	justify-content: center;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+}
+
+div.flex-container > div.generalcontainer {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 93.5%;
+}
+
+div.flex-container > div > div.general {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 93.5%;
+}
+
+div.flex-container > div > div.generalimage {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 27.5%;
+}
+
+div.flex-container > div.indexwidget {
+	width: 25%; 
+}
+
+div.flex-container > div.indexdescription {
+	width: 35%;
+}
+
+div.flex-container > div > div.mascotimage {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 75%;
+}
+
+div.flex-container > div.generalrowcontainer {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 93.5%;
+}
+
+div.flex-container > div > div.generalrow {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 30%;
+}
+
+div.flex-container > div.nosiphitetwitter {
+	width: 18.5%;
+}
+
+div.twitter-timeline {
+	height: auto;
+	width: 100vw !important;
+}
+
+div.flex-container > div.nosiphiteinformation {
+	width: 50%;
+}
+
+div.flex-container > div > div.nosiphitephoto {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 40%;
+}
+
+div.flex-container > div.nosiphitespotify {
+	width: 18.5%;
+}
+
+div.flex-container > div.nosiphitedescription {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+
+div.flex-container > div.nosiphitevideocontainer {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+
+div.flex-container > div > div.nosiphitevideo {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 95%;
+}
+
+div.flex-container > div.nosiphitememecontainer {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 25%;
+}
+
+div.flex-container > div > div.nosiphitememe {
+	align-content: center;
+	align-items: center;
+	border: 1px solid #172139;
+	border-radius: 10px;
+	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	display: inline-block;
+	float: center;
+	margin: 10px;
+	padding: 12px;
+	vertical-align: middle;
+	width: 90%;
+}
+
+div.flex-container > div.powerpoint {
+	height: 840px;
+	margin: 0.5%;
+	width: 75%;
+}
+
+div.flex-container > div.copyright {
+	width: 93.5%;
+}
+
+img.logo {
+	height: 35px;
+	vertical-align: middle;
 }

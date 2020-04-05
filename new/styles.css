@@ -42,6 +42,12 @@ div.body {
 	
 }
 
+div.copyright {
+	
+	width: 93.5%;
+	
+}
+
 div.dropdown-content {
 	
 	background-color: #172139;
@@ -89,6 +95,12 @@ div.entire {
 	padding: 0px;
 	vertical-align: middle;
 	width: 100%;
+	
+}
+
+div.img {
+	
+	
 	
 }
 

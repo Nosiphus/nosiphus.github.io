@@ -194,6 +194,12 @@ div.widget {
 	
 }
 
+img {
+	
+	width: 100%;
+	
+}
+
 img.information {
 	
 	height: 35px;
@@ -245,12 +251,6 @@ li img {
 	
 	height: 35px;
 	width: 35px;
-	
-}
-
-img {
-	
-	width: 100%;
 	
 }
 

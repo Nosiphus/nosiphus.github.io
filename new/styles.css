@@ -38,7 +38,7 @@ div {
 div.body {
 	
 	flex-flow: row wrap;
-	width: 93.5%;
+	width: 90%;
 	
 }
 
@@ -107,7 +107,7 @@ div.p {
 
 div.widget {
 	
-	width: 25%;
+	width: 32.25%;
 	
 }
 

@@ -38,7 +38,7 @@ div {
 div.body {
 	
 	flex-flow: row wrap;
-	width: 90%;
+	width: 93.5%;
 	
 }
 
@@ -71,6 +71,24 @@ div.dropdown-content a {
 div.dropdown-content a:hover {
 	
 	box-shadow: inset 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
+	
+}
+
+div.entire {
+	
+	align-content: center;
+	align-items: center;
+	background-color: #172139;
+	border: 0px solid #172139;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #141C30, 0px 0px 0px #1A2642;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	width: 100%;
 	
 }
 

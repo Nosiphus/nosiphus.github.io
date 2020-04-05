@@ -129,6 +129,34 @@ div.mainlogo {
 	
 }
 
+div.member {
+	
+	align-content: space-between;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 50%;
+	
+}
+
+div.member > div.img {
+	
+	width: 45%;
+	
+}
+
+div.member > div.img > img {
+	
+	width: 100%;
+	
+}
+
+div.member > p {
+	
+	text-align: right;
+	
+}
+
 div.navigation {
 	
 	border: hidden;
@@ -148,6 +176,12 @@ div.p {
 	
 }
 
+div.spotify {
+	
+	width: 30%;
+	
+}
+
 div.video {
 	
 	
@@ -156,7 +190,15 @@ div.video {
 
 div.widget {
 	
-	width: 45%;
+	width: 40%;
+	
+}
+
+img.information {
+	
+	height: 35px;
+	width: 35px;
+	vertical-align: middle;
 	
 }
 

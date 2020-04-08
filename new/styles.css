@@ -28,7 +28,7 @@ div {
 	border-radius: 10px;
 	box-shadow: 7px 7px 17px #141C30, -7px -7px 17px #1A2642;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin: 10px;
 	padding: 12px;
 	vertical-align: middle;
@@ -38,6 +38,8 @@ div {
 div.body {
 	
 	flex-flow: row wrap;
+	flex-grow: 1;
+	justify-content: space-evenly;
 	width: 93.5%;
 	
 }
@@ -48,16 +50,17 @@ div.borderlessbody {
 	border-radius: 0px;
 	box-shadow: 0px 0px 0px #141C30, 0px 0px 0px #1A2642;
 	flex-flow: row wrap;
+	justify-content: space-evenly;
 	margin: 0px;
 	padding: 0px;
-	width: 93.5%;
+	width: 100%;
 	
 }
 
 div.copyright {
 	
 	flex-flow: column wrap;
-	width: 93.5%;
+	width: 100%;
 	
 }
 
@@ -103,7 +106,7 @@ div.entire {
 	box-shadow: 0px 0px 0px #141C30, 0px 0px 0px #1A2642;
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin: 0px;
 	padding: 0px;
 	vertical-align: middle;
@@ -113,7 +116,9 @@ div.entire {
 
 div.img {
 	
-	
+	flex-grow: 1;
+	justify-content: space-evenly;
+	width: 25%;
 	
 }
 
@@ -137,10 +142,10 @@ div.mainlogo {
 
 div.member {
 	
-	align-content: space-between;
+	align-content: space-evenly;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	width: 55%;
 	
 }
@@ -172,25 +177,28 @@ div.navigation {
 div.p {
 	
 	flex-flow: column wrap;
-	width: 93.5%;
+	justify-content: space-evenly;
+	width: 100%;
 	
 }
 
 div.spotify {
 	
-	width: 30%;
+	flex-grow: 1;
+	justify-content: space-evenly;
 	
 }
 
 div.video {
 	
-	
+	justify-content: space-evenly;
 	
 }
 
 div.widget {
 	
-	width: 35%;
+	flex-grow: 1;
+	justify-content: space-evenly;
 	
 }
 

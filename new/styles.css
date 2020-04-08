@@ -117,6 +117,12 @@ div.img {
 	
 }
 
+div.img > img {
+	
+	width: 100%;
+	
+}
+
 div.mainlogo {
 	
 	border: hidden;
@@ -135,19 +141,13 @@ div.member {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	width: auto;
+	width: 55%;
 	
 }
 
 div.member > div.img {
 	
-	width: 45%;
-	
-}
-
-div.member > div.img > img {
-	
-	width: 100%;
+	width: 40%;
 	
 }
 
@@ -190,7 +190,7 @@ div.video {
 
 div.widget {
 	
-	width: 40%;
+	width: 35%;
 	
 }
 

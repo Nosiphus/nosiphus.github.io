@@ -59,8 +59,10 @@ div.borderlessbody {
 
 div.copyright {
 	
-	flex-flow: column wrap;
-	width: 100%;
+	flex-flow: row wrap;
+	flex-grow: 1;
+	justify-content: space-evenly;
+	width: 93.5%;
 	
 }
 
@@ -106,6 +108,7 @@ div.entire {
 	box-shadow: 0px 0px 0px #141C30, 0px 0px 0px #1A2642;
 	display: flex;
 	flex-flow: column;
+	flex-grow: 1;
 	justify-content: space-evenly;
 	margin: 0px;
 	padding: 0px;
@@ -116,9 +119,8 @@ div.entire {
 
 div.img {
 	
-	flex-grow: 1;
-	justify-content: space-evenly;
-	width: 25%;
+	justify-content: center;
+	width: 50%;
 	
 }
 
@@ -146,7 +148,7 @@ div.member {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	width: 55%;
+	width: 60%;
 	
 }
 
@@ -169,14 +171,15 @@ div.navigation {
 	box-shadow: 0px 0px 0px #172139, 0px 0px 0px #172139;
 	display: flex;
 	flex-flow: column;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0px;
+	padding: 0px;
 	
 }
 
 div.p {
 	
 	flex-flow: column wrap;
+	flex-grow: 1;
 	justify-content: space-evenly;
 	width: 100%;
 	
@@ -268,6 +271,8 @@ p {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 32px;
+	margin: 12px;
+	padding: 12px 12px;
 	text-align: center;
 	
 }

@@ -176,6 +176,16 @@ div.navigation {
 	
 }
 
+div.navigation > img {
+	
+	border: hidden;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #172139, 0px 0px 0px #172139;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
 div.p {
 	
 	flex-flow: column wrap;

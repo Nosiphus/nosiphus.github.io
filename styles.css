@@ -130,6 +130,19 @@ div.img > img {
 	
 }
 
+div.img40 {
+	
+	justify-content: center;
+	width: 40%;
+	
+}
+
+div.img40 > img {
+	
+	width: 100%;
+	
+}
+
 div.mainlogo {
 	
 	border: hidden;

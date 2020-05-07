@@ -143,6 +143,18 @@ div.img40 > img {
 	
 }
 
+div.mainlogo {
+	
+	border: hidden;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #000062, 0px 0px 0px #000062;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	
+}
+
 div.member {
 	
 	align-content: space-evenly;
@@ -174,7 +186,16 @@ div.navigation {
 	flex-flow: column;
 	margin: 0px;
 	padding: 0px;
-	width: 100%;
+	
+}
+
+div.navigation > img {
+	
+	border: hidden;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #000062, 0px 0px 0px #000062;
+	margin: 0px;
+	padding: 0px;
 	
 }
 

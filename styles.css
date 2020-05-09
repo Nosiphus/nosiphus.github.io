@@ -15,7 +15,7 @@ a {
 
 body {
 	
-	background-color: #000062;
+	background-color: #002080;
 	
 }
 
@@ -23,10 +23,10 @@ div {
 	
 	align-content: center;
 	align-items: center;
-	background-color: #000062;
-	border: 1px solid #000062;
+	background-color: #002080;
+	border: 1px solid #002080;
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #000053, -7px -7px 17px #000071;
+	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
 	display: flex;
 	justify-content: space-evenly;
 	margin: 10px;
@@ -46,9 +46,9 @@ div.body {
 
 div.borderlessbody {
 	
-	border: 0px solid #000062;
+	border: 0px solid #002080;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #000053, 0px 0px 0px #000071;
+	box-shadow: 0px 0px 0px #001B6D, 0px 0px 0px #002593;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	margin: 0px;
@@ -68,10 +68,10 @@ div.copyright {
 
 div.dropdown-content {
 	
-	background-color: #000062;
-	border: 1px solid #000062;
+	background-color: #002080;
+	border: 1px solid #002080;
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #000053, -7px -7px 17px #000071;
+	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
 	display: none;
 	margin: 12px;
 	min-width: 160px;
@@ -94,7 +94,7 @@ div.dropdown-content a {
 
 div.dropdown-content a:hover {
 	
-	box-shadow: inset 7px 7px 17px #000053, -7px -7px 17px #000071;
+	box-shadow: inset 7px 7px 17px #001B6D, -7px -7px 17px #002593;
 	
 }
 
@@ -102,10 +102,10 @@ div.entire {
 	
 	align-content: center;
 	align-items: center;
-	background-color: #000062;
-	border: 0px solid #000062;
+	background-color: #002080;
+	border: 0px solid #002080;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #000053, 0px 0px 0px #000071;
+	box-shadow: 0px 0px 0px #001B6D, 0px 0px 0px #002593;
 	display: flex;
 	flex-flow: column;
 	flex-grow: 1;
@@ -147,7 +147,7 @@ div.mainlogo {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #000062, 0px 0px 0px #000062;
+	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
@@ -181,7 +181,7 @@ div.navigation {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #000062, 0px 0px 0px #000062;
+	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
 	display: flex;
 	flex-flow: column;
 	margin: 0px;
@@ -193,7 +193,7 @@ div.navigation > img {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #000062, 0px 0px 0px #000062;
+	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
 	margin: 0px;
 	padding: 0px;
 	
@@ -252,10 +252,10 @@ li {
 li a, .dropbtn {
 	
 	align-content: center;
-	border: 1px solid #000062;
+	border: 1px solid #002080;
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #000053, -7px -7px 17px #000071;
-	color: #000062;
+	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	color: #002080;
 	display: flex;
 	margin: 12px;
 	padding: 8px;
@@ -277,7 +277,7 @@ li.dropdown:hover div.dropdown-content {
 
 li a:hover, .dropdown:hover .dropbtn {
 	
-	box-shadow: inset 7px 7px 17px #000053, -7px -7px 17px #000071;
+	box-shadow: inset 7px 7px 17px #001B6D, -7px -7px 17px #002593;
 	
 }
 
@@ -314,9 +314,9 @@ span.red {
 
 ul {
 	
-	border: 1px solid #000062;
+	border: 1px solid #002080;
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #000053, -7px -7px 17px #000071;
+	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
 	margin: 2.5%;
 	overflow: hidden;
 	padding: 0.5%;

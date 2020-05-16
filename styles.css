@@ -201,10 +201,10 @@ div.navigation > img {
 
 div.p {
 	
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 	flex-grow: 1;
 	justify-content: space-evenly;
-	width: 100%;
+	width: 93.5%;
 	
 }
 

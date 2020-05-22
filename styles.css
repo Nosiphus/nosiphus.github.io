@@ -59,10 +59,7 @@ div.borderlessbody {
 
 div.copyright {
 	
-	flex-flow: row wrap;
-	flex-grow: 1;
-	justify-content: space-evenly;
-	width: 93.5%;
+	width: 100%;
 	
 }
 
@@ -225,6 +222,12 @@ div.widget {
 	
 	flex-grow: 1;
 	justify-content: space-evenly;
+	
+}
+
+footer {
+	
+	background-color: #002080;
 	
 }
 

@@ -59,18 +59,14 @@ div.borderlessbody {
 
 div.copyright {
 	
-	flex-flow: row;
-	justify-content: space-evenly;
-	width: 100%;
-	
-}
-
-div.copyright > img {
-	
 	border: hidden;
 	border-radius: 0px;
 	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
-	width: 40%;
+	display: flex;
+	flex-flow: column;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 	
 }
 

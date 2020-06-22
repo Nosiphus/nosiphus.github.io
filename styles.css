@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext,vietnamese');
 
+:root {
+	
+	--background-color: #002080;
+	--box-shadow-light: #001B6D;
+	--box-shadow-dark: #002593;
+	--link-color: #0090FF;
+	--text-color: #0052FF;
+	
+}
+
 * {
 	
 	font-family: 'Quicksand', sans-serif;
@@ -8,14 +18,14 @@
 
 a {
 	
-	color: #0090FF;
+	color: var(--link-color);
 	text-decoration: none;
 	
 }
 
 body {
 	
-	background-color: #002080;
+	background-color: var(--background-color);
 	
 }
 
@@ -23,10 +33,10 @@ div {
 	
 	align-content: center;
 	align-items: center;
-	background-color: #002080;
-	border: 1px solid #002080;
+	background-color: var(--background-color);
+	border: 1px solid var(--background-color);
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	box-shadow: 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	display: flex;
 	justify-content: space-evenly;
 	margin: 10px;
@@ -46,9 +56,9 @@ div.body {
 
 div.borderlessbody {
 	
-	border: 0px solid #002080;
+	border: 0px solid var(--background-color);
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #001B6D, 0px 0px 0px #002593;
+	box-shadow: 0px 0px 0px var(--box-shadow-light), 0px 0px 0px var(--box-shadow-dark);
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	margin: 0px;
@@ -61,7 +71,7 @@ div.copyright {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
+	box-shadow: 0px 0px 0px var(--background-color), 0px 0px 0px var(--background-color);
 	display: flex;
 	flex-flow: column;
 	margin: 0px;
@@ -72,10 +82,10 @@ div.copyright {
 
 div.dropdown-content {
 	
-	background-color: #002080;
-	border: 1px solid #002080;
+	background-color: var(--background-color);
+	border: 1px solid var(--background-color);
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	box-shadow: 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	display: none;
 	margin: 12px;
 	min-width: 160px;
@@ -87,7 +97,7 @@ div.dropdown-content {
 
 div.dropdown-content a {
 	
-	color: #0090FF;
+	color: var(--link-color);
 	display: block;
 	margin: 12px;
 	padding: 12px 16px;
@@ -98,7 +108,7 @@ div.dropdown-content a {
 
 div.dropdown-content a:hover {
 	
-	box-shadow: inset 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	box-shadow: inset 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	
 }
 
@@ -106,10 +116,10 @@ div.entire {
 	
 	align-content: center;
 	align-items: center;
-	background-color: #002080;
-	border: 0px solid #002080;
+	background-color: var(--background-color);
+	border: 0px solid var(--background-color);
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #001B6D, 0px 0px 0px #002593;
+	box-shadow: 0px 0px 0px var(--box-shadow-light), 0px 0px 0px var(--box-shadow-dark);
 	display: flex;
 	flex-flow: column;
 	flex-grow: 1;
@@ -173,7 +183,7 @@ div.navigation {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
+	box-shadow: 0px 0px 0px var(--background-color), 0px 0px 0px var(--background-color);
 	display: flex;
 	flex-flow: column;
 	margin: 0px;
@@ -186,7 +196,7 @@ div.navigation > img {
 	
 	border: hidden;
 	border-radius: 0px;
-	box-shadow: 0px 0px 0px #002080, 0px 0px 0px #002080;
+	box-shadow: 0px 0px 0px var(--background-color), 0px 0px 0px var(--background-color);
 	margin: 0px;
 	padding: 0px;
 	
@@ -223,7 +233,7 @@ div.widget {
 
 footer {
 	
-	background-color: #002080;
+	background-color: var(--background-color);
 	
 }
 
@@ -251,10 +261,10 @@ li {
 li a, .dropbtn {
 	
 	align-content: center;
-	border: 1px solid #002080;
+	border: 1px solid var(--background-color);
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
-	color: #002080;
+	box-shadow: 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
+	color: var(--background-color);
 	display: flex;
 	margin: 12px;
 	padding: 8px;
@@ -276,7 +286,7 @@ li.dropdown:hover div.dropdown-content {
 
 li a:hover, .dropdown:hover .dropbtn {
 	
-	box-shadow: inset 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	box-shadow: inset 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	
 }
 
@@ -289,7 +299,7 @@ li img {
 
 p {
 	
-	color: #0052FF;
+	color: var(--text-color);
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 32px;
@@ -313,9 +323,9 @@ span.red {
 
 ul {
 	
-	border: 1px solid #002080;
+	border: 1px solid var(--background-color);
 	border-radius: 10px;
-	box-shadow: 7px 7px 17px #001B6D, -7px -7px 17px #002593;
+	box-shadow: 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	margin: 2.5%;
 	overflow: hidden;
 	padding: 0.5%;

@@ -77,9 +77,9 @@ div.dropdown-content {
 	border-radius: 10px;
 	box-shadow: 7px 7px 17px var(--box-shadow-light), -7px -7px 17px var(--box-shadow-dark);
 	display: none;
-	margin: 0px 12px 12px 12px;
-	min-width: 160px;
-	padding: 8px;
+	margin: 0px 16px 16px 16px;
+	min-width: 200px;
+	padding: 12px;
 	position: absolute;
 	z-index: 1;
 	
@@ -89,8 +89,8 @@ div.dropdown-content a {
 	
 	color: var(--link-color);
 	display: block;
-	margin: 12px;
-	padding: 12px 16px;
+	margin: 16px;
+	padding: 16px 20px;
 	text-align: center;
 	text-decoration: none;
 	
@@ -293,8 +293,8 @@ p {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 32px;
-	margin: 12px;
-	padding: 12px 12px;
+	margin: 24px;
+	padding: 24px 24px;
 	text-align: center;
 	
 }

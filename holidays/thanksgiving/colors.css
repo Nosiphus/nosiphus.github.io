@@ -1,0 +1,11 @@
+@import url("../../master.css");
+
+:root {
+	
+	--background-color: #804B00;
+	--box-shadow-light: #6D4000;
+	--box-shadow-dark: #935600;
+	--link-color: #FF4500;
+	--text-color: #FF8300;
+	
+}
